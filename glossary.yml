@@ -1,0 +1,4 @@
+GERP:
+  definition: |
+    The Genomic Evolutionary Rate Profiling is a statistical approach to quantify the deficit of substitutions in base pairs based on neutral the neutral rate of substitution. The neutral rate of substitution is an estimate of the number of new mutations per each generation multiplied by the probability that the substitution reaches fixations. In cases where neutral mutations exist, the rate of substitution will be equal to the rate of mutations. The GERP Score thus indicates the deviation from the neutral rate of subsitution indicating that positive scores will indicate that fewer substitutions have taken place than would be expected under neutral substitution while negative scores indicate that more substitutions have taken place than would be expected under the neutral model. 
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1172034/
