@@ -1,4 +1,63 @@
+allele:
+  definition: A variation in the same sequence of nucleotides at the same place on a long DNA molecule.
+  link: https://en.wikipedia.org/wiki/Allele
+
 GERP:
-  definition: |
-    The Genomic Evolutionary Rate Profiling is a statistical approach to quantify the deficit of substitutions in base pairs based on neutral the neutral rate of substitution. The neutral rate of substitution is an estimate of the number of new mutations per each generation multiplied by the probability that the substitution reaches fixations. In cases where neutral mutations exist, the rate of substitution will be equal to the rate of mutations. The GERP Score thus indicates the deviation from the neutral rate of subsitution indicating that positive scores will indicate that fewer substitutions have taken place than would be expected under neutral substitution while negative scores indicate that more substitutions have taken place than would be expected under the neutral model. 
+  definition: The Genomic Evolutionary Rate Profiling is a statistical approach to quantify the deficit of substitutions in base pairs based on neutral the neutral rate of substitution. The neutral rate of substitution is an estimate of the number of new mutations per each generation multiplied by the probability that the substitution reaches fixations. In cases where neutral mutations exist, the rate of substitution will be equal to the rate of mutations. The GERP Score thus indicates the deviation from the neutral rate of subsitution indicating that positive scores will indicate that fewer substitutions have taken place than would be expected under neutral substitution while negative scores indicate that more substitutions have taken place than would be expected under the neutral model. 
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1172034/
+
+DAF:
+  definition: Derived allele frequency which represents the distribution of alleles at a given loci.
+  link: https://en.wikipedia.org/wiki/Allele_frequency_spectrum
+
+Stop:
+  definition: A nucleotide substitution leading to the addition of a stop codon (UAA, UAG, UGA) and leads to premature truncation of a protein during transcription. These are associated with a loss of function.
+  link: https://illustrated-glossary.nejm.org/term/stop-gain_variant
+
+Splice:
+  definition: Often associated with post-translational changes in either the N-terminal region or a change in the availability of glycosylationsites through a change in the signal petide. This can lead to secondary changes due to changes in the structure and is associated with a loss of function.
+  link: https://onlinelibrary.wiley.com/doi/10.1002/prot.10568
+
+Nonsyn:
+  definition: A non-synonymous mutation is a change in the DNA sequence which results in a change in the encoded amino acid.
+  link: https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5572-x
+
+Syn:
+  definition: A synonymous mutation is a change in the DNA sequence which does not result in a change in the encoded amino acid.
+  link: https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5572-x
+
+UTR:
+  definition: The untranslated region. These appear on either side of the coding region with the 5' untranslated region called the leader sequence and the 3' untranslated region called the trailer sequence. The role of the untranslated region is not well described and may have a role in transcription regulation and mutations in this region may be associated with increased risk of certain cancers. 
+  link: https://en.wikipedia.org/wiki/Untranslated_region
+
+SmallRNA:
+  definition: Small RNA sequences are short, normally non-coding regions with a nucleotide length less than 200 bases. RNA silencing has been associated with these sequences.
+  link: https://en.wikipedia.org/wiki/Small_RNA
+
+lincRNA:
+  definition: Large intergenic non-coding RNA are associated with remodelling of chromatin, genome architecture, RNA stabilisation, and transcription regulation.
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5889127/
+
+TFmotif:
+  definition: Transcription factor motif is the sequence associated with the proteins which are involved in the transcription of DNA to mRNA.
+  link: https://en.wikipedia.org/wiki/Transcription_factor
+
+TFpeak:
+  definition: Transcription factor motif
+  link: https://en.wikipedia.org/wiki/Transcription_factor
+
+ENHCR:
+  definition: Enhancers regulate the transcription of genes by increasing the levels than without them.
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4445073/#:~:text=Enhancers%20are%20DNA%2Dregulatory%20elements,target%20gene%20into%20proximity23.
+
+PSEUG:
+  definition: Pseudogenes are nonfunctional segments of DNA which resemble genes. These could be artefacts from mutations of prior functioning genes.
+  link: https://en.wikipedia.org/wiki/Pseudogene
+
+motif:
+  definition: A motif is a nucleotide or amino acid sequence associated with a specific structure and are associated with functionally important sites.
+  link: https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/download/lectures/PCB_Lect08_Bind_Motifs.pdf
+
+ChipSeq:
+  definition: Chromatin immunoprecipitation followed by sequencing (ChIP-seq) is extensively used to determine transcription factor binding sites (TFBSs)
+  link: https://academic.oup.com/bioinformatics/article/29/21/2705/195767
