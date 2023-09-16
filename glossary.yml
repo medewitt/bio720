@@ -15,7 +15,7 @@ Stop:
   link: https://illustrated-glossary.nejm.org/term/stop-gain_variant
 
 Splice:
-  definition: Often associated with post-translational changes in either the N-terminal region or a change in the availability of glycosylationsites through a change in the signal petide. This can lead to secondary changes due to changes in the structure and is associated with a loss of function.
+  definition: Often associated with post-translational changes in either the N-terminal region or a change in the availability of glycosylationsites through a change in the signal peptide. This can lead to secondary changes due to changes in the structure and is associated with a loss of function.
   link: https://onlinelibrary.wiley.com/doi/10.1002/prot.10568
 
 Nonsyn:
@@ -59,5 +59,9 @@ motif:
   link: https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/download/lectures/PCB_Lect08_Bind_Motifs.pdf
 
 ChipSeq:
-  definition: Chromatin immunoprecipitation followed by sequencing (ChIP-seq) is extensively used to determine transcription factor binding sites (TFBSs)
+  definition: Chromatin immunoprecipitation followed by sequencing (ChIP-seq) is extensively used to determine transcription factor binding sites (TFBSs). DNA binding proteins can be cross-linked to the DNA that they are binding and by using an antibody against said proteins, the entire DNA/protein complex can be precipitated out of solution.
   link: https://academic.oup.com/bioinformatics/article/29/21/2705/195767
+
+Immunoprecipitation:
+  definition: Use of an antibody to precipitate out a particular protein antigen.
+  link: https://en.wikipedia.org/wiki/Immunoprecipitation

@@ -71,12 +71,14 @@ From this figure we can conclude that:
 == Panel B
 
 In @fig4b examines the CTCF-binding motif within the CTCF-binding peaks.
-The transcription repressor CTCF has been characterizatio as playing a vital role in transcription regulation including the recombination of the antibody loci and the regulation of chromatin architecture #cite("filippovaExceptionallyConservedTranscriptional1996", "cooperDistributionIntensityConstraint2005").
+The transcription repressor CTCF has been characterized as playing a vital role in transcription regulation including the recombination of the antibody loci and the regulation of chromatin architecture #cite("filippovaExceptionallyConservedTranscriptional1996", "cooperDistributionIntensityConstraint2005").
 Intuitively, we would expect relatively low diversity in this gene as chromatin structural formation is vital for transcription (and cellular generation more generally).
 
 The binding motif is shown in the picto-graphic (called the "logo plot") for the actual nucleotide.
 In all cases, red represents the "out peak"  and blue represents the "in peak" from the Chip-seq (ChipSeq) analysis which is used to map binding sites.
 Those sites that are located within the peak are likely related to binding and associated with function.
+The in peak is the mapped functional/ active site of the CTCF gene while the out peak represents the CTCF motif, but not on the CTCF gene.
+This indicates that the conservation and lower diversity rates are active site conserving (preserving functionality of the gene).
 
 === Upper panel
 
@@ -93,7 +95,7 @@ This is not to say that there isn't a more complex story as there is a hint of d
 
 #figure(
     image("assets/figure4b.png", width: 60%),
-    caption: [Levels of evolutionary conservation (mean GERP score, top) and genetic diversity (per-nucleotide pairwise differences, bottom) for the sequences matching the CTCF-binding motid within CTCF-binding peaks, as identified experimentally by ChIP-seq in the ENCODE project (blue) and in a matched set of motifs outside peaks (red). The logo plot shows the distribution of identified motifs within peaks.],
+    caption: [Levels of evolutionary conservation (mean GERP score, top) and genetic diversity (per-nucleotide pairwise differences, bottom) for the sequences matching the CTCF-binding motif within CTCF-binding peaks, as identified experimentally by ChIP-seq in the ENCODE project (blue) and in a matched set of motifs outside peaks (red). The logo plot shows the distribution of identified motifs within peaks.],
 ) <fig4b>
 
 == Key conclusions

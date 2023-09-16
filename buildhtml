@@ -1,0 +1,10 @@
+echo "<!DOCTYPE html>
+<article>
+    <header>
+      <h1>Reading notes for An integreated map of genetic variation from 1,092 human genomes</h1>
+      <p></p>
+      <p>Some additional information here</p>
+    </header>
+    <p>Reading notes updated as of `date`</p>
+</article>
+" > docs/index.html
