@@ -11,11 +11,12 @@
       url: "www.michaeldewittjr.com"
     ),
   ),
-  abstract: "We examine in great detail the conclusion from Figure 4 in the 1000 Human Genomes paper.",
+  abstract: "Caveat Emptor",
   bibliography-file: "integratedbio.bib",
 )
 
 #set heading(numbering: "1.")
+#let today = datetime.today()
 
 #show glossaryWords("glossary.yml"): word => glossaryShow("glossary.yml", word)
 
@@ -24,10 +25,11 @@
 
 The purpose of figure 4 from _An integreated map of genetic variation from 1,092 human genomes_ @the1000genomesprojectconsortiumIntegratedMapGenetic2021 is to illustrate the role of purifying selecting within and between populations.
 Critically, this first requires a discussion of purifying selection.
-*Purifying selection* is a type of background selection resulting in lower genetic diversity @cvijovicEffectStrongPurifying2018.
+*Purifying selection* or negative selection is a type of background selection resulting in lower genetic diversity @cvijovicEffectStrongPurifying2018.
 When mutations occur in the genome which are highly deleterious, offspring do not survive long enough to pass on these mutations to subsequent generations, at least on longer timescales @cvijovicEffectStrongPurifying2018.
 When this background selection occurs, the observed genetic diversity is lower than what would be expected under neutral substitition.
 However, these dynamics exist within the broader population level (longer) timescales and periodic deleterious mutations do appear to exist on shorter term time scales.
+Additionally, as described by Vitti et al, "selection operates at the level of the phenotype, alleles showing evidence of selection are likely to be of funtional relevance" @vittiDetectingNaturalSelection2013.
 
 = Quantifying human variation
 
@@ -65,7 +67,7 @@ From this figure we can conclude that:
 
 #figure(
     image("assets/figure4a.png", width: 60%),
-    caption: [The relationaship between evolutionary conservation (measured by GERP score) and rare variant proportion (fraction of all variants weith derived allele frequency (DAF) < 5% for variants occurring in different functional elements and with different coding consequences. Crosses indicate the average GERP score at variant sites (x axis) and the proportion of rare variants (y axis) in each category.],
+    caption: [The relationaship between evolutionary conservation (measured by GERP score) and rare variant proportion (fraction of all variants weith derived allele frequency (DAF) < 5% )for variants occurring in different functional elements and with different coding consequences. Crosses indicate the average GERP score at variant sites (x axis) and the proportion of rare variants (y axis) in each category.],
 ) <fig4a>
 
 == Panel B

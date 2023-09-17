@@ -3,6 +3,7 @@
 #let small-size = 9.24994pt
 #let normal-size = 10.00002pt
 #let large-size = 11.74988pt
+#let today = datetime.today()
 
 // This function gets your whole document as its `body` and formats
 // it as an article in the style of the American Mathematical Society.
@@ -49,16 +50,16 @@
     // The margins depend on the paper size.
     margin: if paper-size != "a4" {
       (
-        top: (116pt / 279mm) * 100%,
-        left: (126pt / 216mm) * 100%,
-        right: (128pt / 216mm) * 100%,
-        bottom: (94pt / 279mm) * 100%,
+        top: (80pt / 279mm) * 100%,
+        left: (80pt / 216mm) * 100%,
+        right: (80pt / 216mm) * 100%,
+        bottom: (80pt / 279mm) * 100%,
       )
     } else {
       (
         top: 117pt,
-        left: 118pt,
-        right: 119pt,
+        left: 80pt,
+        right: 80pt,
         bottom: 96pt,
       )
     },
@@ -73,11 +74,11 @@
       set text(size: script-size)
       grid(
         columns: (6em, 1fr, 6em),
-        if calc.even(i) [#i],
+        today.display() ,
         align(center, upper(
           if calc.odd(i) { title } else { author-string }
         )),
-        if calc.odd(i) { align(right)[#i] }
+        align(right)[#i]
       )
     }),
 
@@ -191,7 +192,6 @@
     v(20pt, weak: true)
     set text(script-size)
     show: pad.with(x: 35pt)
-    smallcaps[Abstract. ]
     abstract
   }
 

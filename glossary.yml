@@ -48,10 +48,10 @@ TFpeak:
 
 ENHCR:
   definition: Enhancers regulate the transcription of genes by increasing the levels than without them.
-  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4445073/#:~:text=Enhancers%20are%20DNA%2Dregulatory%20elements,target%20gene%20into%20proximity23.
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4445073/
 
 PSEUG:
-  definition: Pseudogenes are nonfunctional segments of DNA which resemble genes. These could be artefacts from mutations of prior functioning genes.
+  definition: Pseudogenes are nonfunctional segments of DNA which resemble genes. These could be artifacts from mutations of prior functioning genes.
   link: https://en.wikipedia.org/wiki/Pseudogene
 
 motif:
@@ -65,3 +65,23 @@ ChipSeq:
 Immunoprecipitation:
   definition: Use of an antibody to precipitate out a particular protein antigen.
   link: https://en.wikipedia.org/wiki/Immunoprecipitation
+
+heterozygote advantage:
+  definition: A trend in which the fitness of a heterozygote is greater than that of either homozygote. Also referred to as overdominance.
+  link: https://pubmed.ncbi.nlm.nih.gov/24274750/
+
+frequency dependent selection:
+  definition: A trend in which the fitness of a given genotype is correlated with its prevalence in the population (e.g., if an allele is advantageous when it is rare)
+  link: https://pubmed.ncbi.nlm.nih.gov/24274750/
+
+codominance:
+  definition: the condition in which multiple alleles are dominant; the heterozygote expresses phenotypes associated with both alleles.
+  link: https://pubmed.ncbi.nlm.nih.gov/24274750/
+
+positive selection:
+  definition: in which an allele is favoured and is propagated
+  linke: https://pubmed.ncbi.nlm.nih.gov/24274750/
+
+negative selection:
+  definition: in which an allele is disfavored (also called purifying selection)
+  linke: https://pubmed.ncbi.nlm.nih.gov/24274750/

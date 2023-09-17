@@ -1,10 +1,20 @@
 echo "<!DOCTYPE html>
-<article>
-    <header>
-      <h1>Reading notes for An integrated map of genetic variation from 1,092 human genomes</h1>
+<html>
+    <head>
+    </head>
+    <body>
+      <h1>Reading notes for<br><em>An integrated map of genetic variation from 1,092 human genomes</em></h1>
       <p></p>
-      <p>Some additional information <a href = "notes.pdf">here</a></p>
-    </header>
-    <p>Reading notes updated as of `date`</p>
-</article>
+      <p>To check out the latest reading notes see  <a href = "notes.pdf">here</a></p>
+      <p>Reading notes updated as of `date`</p>
+    </body>
+    <footer>
+      <hr>
+      <p>
+        <a href="https://michaeldewittjr.com">
+          main page
+        </a>
+      </p>
+    </footer>
+  </html>
 " > docs/index.html
