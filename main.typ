@@ -105,6 +105,14 @@ All populations shown rare variants (< 0.5 % frequency) which likely reflects th
 
 == Infering history
 
+#block(
+  fill: luma(230),
+  inset: 5pt,
+  radius: 4pt
+)[
+  Highlights the increased diversity in Africa which aligns with our understanding of human migration and evolution out of Africa.
+  ]
+
 The researchers then examined some patterns sharing of variants (they refer to these as f_2 mutations).
 These reflects some "between population" sharing of mutations such as:
 
@@ -114,14 +122,23 @@ These reflects some "between population" sharing of mutations such as:
 
 They also saw interesting dynamics with the Finnish have mutations more closely related to the African populations tested (which makes sense given the relative isolation of the Finnish language).
 
+y-axis frequency of near by variants bounded by the haplotype shown in @fig3 B.
+To calculate 
+
+Most 2f variants were found in Africa representing a likely older population and have likely diverged earlier.
+
 They found a negative correlation between the variant frequency and median length of the shared haplotype (i.e., longer mutations were less likely to be shared or were less predominant).
+More recently related groups will share longer haplotypes while those with shorter shared lengths are more distantly related.
+
+@fig3 C continues to show that African associated diploids had higher variation.
+Generaly consensus is that humans may have migrated to the Americas using small boats.
 
 #figure(
   image("assets/figure3.png", width: 80%),
   caption: [
 a, Sharing of f2 variants, those found exactly twice across the entire sample, within and between populations. Each row represents the distribution across populations for the origin of samples sharing an f2 variant with the target population (indicated by the left-hand side). The grey bars represent the average number of f2 variants carried by a randomly chosen genome in each population. b, Median length of haplotype identity (excluding cryptically related samples and singleton variants, and allowing for up to two genotype errors) between two chromosomes that share variants of a given frequency in each population. Estimates are from 200 randomly sampled regions of 1 Mb each and up to 15 pairs of individuals for each variant. c, The average proportion of variants that are new (compared with the pilot phase of the project) among those found in regions inferred to have different ancestries within ASW, PUR, CLM and MXL populations. Error bars represent 95% bootstrap confidence intervals. NatAm, Native American.
   ]
-)
+) <fig3>
 
 == Admixture
 
@@ -163,7 +180,7 @@ Taking the population sampled as a whole we can calculate the frequency with whi
 
 In @fig4a we see the following:
 
-- X-axis: the GERP score representing the evolutionary conservation where higher scores are more conserved.
+- X-axis: the GERP score representing the evolutionary conservation where higher scores are more conserved. The comparison group were from a group of sequenced mammals.
 - Y-axis: the proportion of variants with a DAF < 0.5% where higher values indicate lower frequencies in the studied population
 - Colored lines: the different functional elements
 - cross on the x and y axes representing the average values for GERP score and proportion of variants with a DAF < 0.5%, respectively.
@@ -175,6 +192,8 @@ From this figure we can conclude that:
 - We see an interesting phenomena with splice variants having higher mutation in less conserved locations.
 - The authors note that rare variant loads are similar for synomynous and nonsynomynous locations suggesting weak selective constraints
 
+Comparing across species can only compare homolgous regions.
+
 #figure(
     image("assets/figure4a.png", width: 60%),
     caption: [The relationaship between evolutionary conservation (measured by GERP score) and rare variant proportion (fraction of all variants weith derived allele frequency (DAF) < 5% )for variants occurring in different functional elements and with different coding consequences. Crosses indicate the average GERP score at variant sites (x axis) and the proportion of rare variants (y axis) in each category.],
@@ -182,7 +201,9 @@ From this figure we can conclude that:
 
 == Panel B
 
-In @fig4b examines the CTCF-binding motif within the CTCF-binding peaks.
+In @fig4b examines the CTCF-binding motif within the CTCF-binding peaks (putative CTFT-binding motif CCMYCTNNNGG)
+
+.
 The transcription repressor CTCF has been characterized as playing a vital role in transcription regulation including the recombination of the antibody loci and the regulation of chromatin architecture #cite("filippovaExceptionallyConservedTranscriptional1996", "cooperDistributionIntensityConstraint2005").
 Intuitively, we would expect relatively low diversity in this gene as chromatin structural formation is vital for transcription (and cellular generation more generally).
 
@@ -215,6 +236,8 @@ This is not to say that there isn't a more complex story as there is a hint of d
 There are some highly conserved regions and likely purifying selection is driven by the addition of stop codons, splice mutations, and non-synomynous mutations at these conserved sites due to their lower observed frequencies of occuring.
 
 = Use of 1000 Genomes Project data in medical genetics
+
+
 
 The authors argue that these data can serve as reference data for future GWAS studies.
 As these data provide a "null model" for rare, low frequency, and common variants, they can provide a background for what to expect in a random sample of the population.

@@ -12,7 +12,7 @@ ENHCR:
   definition: Enhancers regulate the transcription of genes by increasing the levels than without them.
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4445073/
 GERP:
-  definition: The Genomic Evolutionary Rate Profiling is a statistical approach to quantify the deficit of substitutions in base pairs based on neutral the neutral rate of substitution. The neutral rate of substitution is an estimate of the number of new mutations per each generation multiplied by the probability that the substitution reaches fixations. In cases where neutral mutations exist, the rate of substitution will be equal to the rate of mutations. The GERP Score thus indicates the deviation from the neutral rate of subsitution indicating that positive scores will indicate that fewer substitutions have taken place than would be expected under neutral substitution while negative scores indicate that more substitutions have taken place than would be expected under the neutral model.
+  definition: The Genomic Evolutionary Rate Profiling is a statistical approach to quantify the deficit of substitutions in base pairs based on neutral the neutral rate of substitution. The neutral rate of substitution is an estimate of the number of new mutations per each generation multiplied by the probability that the substitution reaches fixations. In cases where neutral mutations exist, the rate of substitution will be equal to the rate of mutations. The GERP Score thus indicates the deviation from the neutral rate of subsitution indicating that positive scores will indicate that fewer observed substitutions have taken place than would be expected under neutral substitution while negative scores indicate that more observed substitutions have taken place than would be expected under the neutral model.
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1172034/
 GWAS:
   definition: Genome-wide association study. These studies examine the association between certain phenotypic outcomes and the genomic variations (generally just SNPs) to understand how the mutations are associated with particular outcomes.
@@ -62,7 +62,7 @@ codominance:
   definition: the condition in which multiple alleles are dominant; the heterozygote expresses phenotypes associated with both alleles.
   link: https://pubmed.ncbi.nlm.nih.gov/24274750/
 codon usage bias:
-  definition: Particular codons have higher speed and accuracy of translation as well as have impacts on protein folding and subsequent mRNA stability. This is important to consider that synonymous mutations may have selective advantages and are subject to background selection.
+  definition: Particular codons have higher speed and accuracy of translation as well as have impacts on protein folding and subsequent mRNA stability. This is important to consider that synonymous mutations may have selective advantages and are subject to background selection. This is more important for non-eukaryotes who have a much lower energy budget.
 exon:
   definition: The regions between the introns that remain in the fully process RNA.
 frequency dependent selection:
