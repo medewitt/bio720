@@ -42,7 +42,7 @@ Stop:
   definition: A nucleotide substitution leading to the addition of a stop codon (UAA, UAG, UGA) and leads to premature truncation of a protein during transcription. These are associated with a loss of function.
   link: https://illustrated-glossary.nejm.org/term/stop-gain_variant
 Syn:
-  definition: A synonymous mutation is a change in the DNA sequence which does not result in a change in the encoded amino acid.
+  definition: A synonymous mutation is a change in the DNA sequence which does not result in a change in the encoded amino acid. Also can be called a silent polymorphism--however, it can have an impact due to codon selection bias.
   link: https://bmccancer.biomedcentral.com/articles/10.1186/s12885-019-5572-x
 TFmotif:
   definition: Transcription factor motif is the sequence associated with the proteins which are involved in the transcription of DNA to mRNA.
@@ -61,11 +61,18 @@ allele:
 codominance:
   definition: the condition in which multiple alleles are dominant; the heterozygote expresses phenotypes associated with both alleles.
   link: https://pubmed.ncbi.nlm.nih.gov/24274750/
+codon usage bias:
+  definition: Particular codons have higher speed and accuracy of translation as well as have impacts on protein folding and subsequent mRNA stability. This is important to consider that synonymous mutations may have selective advantages and are subject to background selection.
 exon:
   definition: The regions between the introns that remain in the fully process RNA.
 frequency dependent selection:
   definition: A trend in which the fitness of a given genotype is correlated with its prevalence in the population (e.g., if an allele is advantageous when it is rare)
   link: https://pubmed.ncbi.nlm.nih.gov/24274750/
+gamete:
+  definition: a reproductive cell. an a diploid organism it is the germ cell which unites with the opposite sex germ cell to create a zygote.
+  link: https://www.genome.gov/genetics-glossary/Gamete
+haplotype:
+  definition: alleles which present together in the same region on a chromosome
 heterozygote advantage:
   definition: A trend in which the fitness of a heterozygote is greater than that of either homozygote. Also referred to as overdominance.
   link: https://pubmed.ncbi.nlm.nih.gov/24274750/
@@ -76,6 +83,8 @@ intron:
 lincRNA:
   definition: Large intergenic non-coding RNA are associated with remodelling of chromatin, genome architecture, RNA stabilisation, and transcription regulation.
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5889127/
+linked genes:
+  definition: When two genes are sufficiently close on the same chromosome and this spatial relationship results in frequencies of these different types of gametes depends on the distance between the genes.
 motif:
   definition: A motif is a nucleotide or amino acid sequence associated with a specific structure and are associated with functionally important sites.
   link: https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/download/lectures/PCB_Lect08_Bind_Motifs.pdf
