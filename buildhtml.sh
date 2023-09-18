@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "<!DOCTYPE html>
 <html>
     <head>
