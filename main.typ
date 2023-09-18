@@ -106,11 +106,11 @@ All populations shown rare variants (< 0.5 % frequency) which likely reflects th
 == Infering history
 
 #block(
-  fill: luma(230),
+  fill: aqua,
   inset: 5pt,
   radius: 4pt
 )[
-  Highlights the increased diversity in Africa which aligns with our understanding of human migration and evolution out of Africa.
+  Figure 3 highlights the increased diversity in Africa which aligns with our understanding of human migration and evolution out of Africa. This is shown by examining both the marginal distribution of f2 variants (panel A) overall and within the group, the absolute percentage of novel variants identified (panel C), and the more divergent, shorter haplotype lengths (b).
   ]
 
 The researchers then examined some patterns sharing of variants (they refer to these as f_2 mutations).
@@ -147,6 +147,14 @@ On average MXL groups had the greatest proportion of Native American ancestry, b
 
 
 = Understanding purifying selection
+
+#block(
+  fill: aqua,
+  inset: 5pt,
+  radius: 4pt
+)[
+  We observe lower rates of genetic diversity, espectially at those sites that control function. Figure 4 shows that we see evidence of purifying (background) selection in the human genome and that this purifying selection occurs at higher rates at sites of functional importance (as selection operates on phenotype and thus function rather than genotype).
+  ]
 
 The purpose of figure 4 from _An integreated map of genetic variation from 1,092 human genomes_ @the1000genomesprojectconsortiumIntegratedMapGenetic2021 is to illustrate the role of purifying selecting within and between populations.
 Critically, this first requires a discussion of purifying selection.
@@ -237,6 +245,13 @@ There are some highly conserved regions and likely purifying selection is driven
 
 = Use of 1000 Genomes Project data in medical genetics
 
+#block(
+  fill: aqua,
+  inset: 5pt,
+  radius: 4pt
+)[
+  This project has yielded important results by allowing for these results to be imputed to other studies (Figure 5a) and have overall highlighted the rates at which different substitutions occur and at what frequency to serve as baseline models.
+  ]
 
 
 The authors argue that these data can serve as reference data for future GWAS studies.
