@@ -294,6 +294,52 @@ The authors mention that purfying slection at functionally relevant sites can le
 Rare variants tend to be recent and restricted due to geography (or ancestry).
 This suggests that local context (and inheritance) may be important for understanding particular disease phenotypes
 
+== Supplment
+ ws
+=== Method for Local Ancestry
+
+- Created a common panel from the available sequences to create the panels (e.g., all of the African groups representing Africa.)
+- Exclusion was for Native Americans which used other published sequences not included in the report where they used a panel from Mao et al (2007).
+- Made an ancestry call using a consensus approach from mutliple ancestry methods
+  - LAMP-LD (hierarchical hidden markov model approach)
+  - HAPMIX (hidden markov model)
+  - RFMIX (random forests on conditional random fields)
+  - MULTIMIX (hidden markov model)
+- Passed the SNP reads of the individiuals with putative haplotype panels, enriched with the parent/child trios for each chromosome and haplotype where if 3/4 of the methods made the same call, then it was defined as the consensus
+
+
+=== Method for KEGG Analysis
+
+First the ycalculate the number of excess rare nonsymonymous variants which is defined as the number of nonsynomynous variants in excess of the rate predicted from the non-rare K_a / Ks ratio as shown in @varcalc.
+MAF represents the minor allele frequences.
+Larger values represent higher differentiation with the general rule that values greater than 0.15 are substantially different while values of 1 are completely differentiated.
+
+#set math.equation(numbering: "(1)")
+$ "Excess rare NonSynomynous" = "NonS"_("MAF" < 0.5%) \
+& - "S"_( "MAF"< 0.5%)  ("NonS"_("MAF" > 0.5%) / "S"_("MAF" > 0.5%)) $ <varcalc>
+
+We can also examine the simple linear regression of the different mapped KEGG pathways.
+The below table reflects the regression of the GERP score (independent variable) on the Number of Excess Nonsynonynmous substitutions.
+We see that generally, as the conservation increases that we see higher excess nonsynomynous variants, but that there is lots of noise in this model.
+
+#table(
+  columns: (auto, auto),
+  inset: 10pt,
+  align: horizon,
+  [*Parameter*], [*Values*],
+  $R^2$,
+  [0.02139],
+  "gerp", [0.16278 (SD 0.07249, p-value 0.0259)],
+ "Model F",[F-statistic: 5.043 on 1 and 184 DF,  p-value: 0.02592]
+)
+
+
+== Fixation Indices
+
+$ F_("st") = (pi_"between" - pi_"within") / pi_"between" $ <fstcalc>
+
+Where $pi$ represents the average pairwise distance.
+
 #pagebreak()
 
 #glossary("glossary.yml")
