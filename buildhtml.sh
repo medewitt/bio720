@@ -7,6 +7,7 @@ echo "<!DOCTYPE html>
       <h1>Reading notes for<br><em>An integrated map of genetic variation from 1,092 human genomes</em></h1>
       <p></p>
       <p>To check out the latest reading notes see  <a href = "notes.pdf">here</a></p>
+      <p>To check out the latest reading notes for the signalling section see  <a href = "signalling.pdf">here</a></p>
       <p>Reading notes updated as of `date`</p>
     </body>
     <footer>

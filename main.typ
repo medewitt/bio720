@@ -314,6 +314,8 @@ First the ycalculate the number of excess rare nonsymonymous variants which is d
 MAF represents the minor allele frequences.
 Larger values represent higher differentiation with the general rule that values greater than 0.15 are substantially different while values of 1 are completely differentiated.
 
+
+
 #set math.equation(numbering: "(1)")
 $ "Excess rare NonSynomynous" = "NonS"_("MAF" < 0.5%) \
 & - "S"_( "MAF"< 0.5%)  ("NonS"_("MAF" > 0.5%) / "S"_("MAF" > 0.5%)) $ <varcalc>
@@ -336,9 +338,15 @@ We see that generally, as the conservation increases that we see higher excess n
 
 == Fixation Indices
 
+Larger values represent higher differentiation with the general rule that values greater than 0.15 are substantially different while values of 1 are completely differentiated.
+
 $ F_("st") = (pi_"between" - pi_"within") / pi_"between" $ <fstcalc>
 
 Where $pi$ represents the average pairwise distance.
+This metric can take on values between 0 and 1 where
+
+
+
 
 #pagebreak()
 
