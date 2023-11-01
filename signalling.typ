@@ -60,6 +60,7 @@ Extracellular ligands can act locally or long distance.
    - For example coupled protein receptors, activates a G-protein, activates 20x cyclic AMP, binds to enzymes
   - *Kinase* adds a phosphate
  - Desensitization/ Adaption/ Feedback
+   - Receptor activation triggers a feeeedback circuit that shuts off the receptor or removes it from the 
  - Integration
  - Protein complex formation
  - Concentration depdendent action
