@@ -8,6 +8,10 @@ echo "<!DOCTYPE html>
       <p></p>
       <p>To check out the latest reading notes see  <a href = "notes.pdf">here</a></p>
       <p>To check out the latest reading notes for the signalling section see  <a href = "signalling.pdf">here</a></p>
+<p>To check out the latest reading notes for the Heyes et al see  <a href = "heyes.pdf">here</a></p>
+<p>To check out the latest reading notes for the behaviour section see  <a href = "behaviour.pdf">here</a></p>
+
+
       <p>Reading notes updated as of `date`</p>
     </body>
     <footer>

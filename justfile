@@ -11,6 +11,15 @@ signal:
     cp signalling.pdf docs/signalling.pdf
     ./buildhtml.sh
 
+behaviour:
+    typst compile behaviour.typ
+    typst compile heyes.typ
+    rm -f docs/behaviour.pdf
+    rm -f docs/heyes.pdf
+    cp heyes.pdf docs/heyes.pdf
+    cp behaviour.pdf docs/behaviour.pdf
+    ./buildhtml.sh
+
 update:
     git add --all
     git commit -m "updating latest"
