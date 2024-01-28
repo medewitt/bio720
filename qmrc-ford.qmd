@@ -1,0 +1,364 @@
+---
+title: "QMRC of Ford et al"
+author: "Michael DeWitt"
+date: "2024-01-28"
+bibliography: molecular.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-numeric-superscript-brackets.csl
+citeproc: true
+format:
+  typst:
+    toc: true
+    section-numbering: 1.1.a
+    columns: 1
+---
+
+# Initial Questions
+
+
+## Why is "new protein synthesis" required for LTP? What are some examples of new proteins that are made?
+
+For long term potentiation to occur, there must be semi-permanent changes (i.e., in the absense of stimualtion the signalling pathways must be modified).
+These occur outside of the germline (i.e., the genes are already made so expression needs to be changed in response to stimulus). 
+Several of the proteins that are made are:
+
+- MAPK or mitogen-activated protein kinases which generally phosphorylate. @cargnelloActivationFunctionMAPKs2011
+- cAMP response element-binding protein which a celluar transcription factor which can alter gene expression for forming long term memories. @silvaCREBMemory1998
+
+## What is CPEB3, and what was already known about it before this study?
+
+Cytoplasmic polyadenylation element binding protein 3 (CPEB3) is a protein involved in memory formation and is believed to be key for memory formation and serves as a post-transcription control on mRNA translation.
+CPE proteins can promote polyadenylation of mRNAs which have shortened polyA tails, thus allowing for translation. @voglerCPEB3AssociatedHuman2009
+In mice is has been shown that CPEs are expressed in the hypocampus, though to be central for memory formation. @fordCPEB3InhibitsTranslation2019
+Studies have shown that CPEB3 specifically is important for maintance of long term memory storage with observed upregulation after stimuli.
+CPEB3 when in itys partially soluable form is thought to promote maintenance of memory formulation through the regulation of mRNA translation targets of AMPA and NMDA subunits along with actin and postsynapic density proteins. 
+When CPEB3 is in its soluable form it inhibits target mRNA translation.
+
+## What are dendritic P body-like structures? What was already known about these structures?
+
+>In a middle-ground purgatory, mRNAs are maintained in a silenced state, neither translated nor degraded, but stored until future conditions determine their fate. In eukaryotic cells, mRNAs in “purgatory” enrich in cytoplasmic condensates called “processing bodies” or “P-bodies” for short. @cassaniPbodylikeCondensatesGermline2024
+
+P-body-like structures are holding cells for untranslated mRNAs.
+While they cannot be translated while in a p-body structure, they are also not degraded thus representing a kind of storage for these mRNAs.
+Further, they behave similar to liquid droplets and are not vesicles.
+Additional studies have found that the p-body-like cells in neurons are enriched, often near the synapses in these neuronal cells. @cougotDendritesMammalianNeurons2008
+These bodies have shown some motorized movements within the neurons to sites where activation occurs. @cougotDendritesMammalianNeurons2008
+It has also been suggested that repressed mRNAs stored in the P-modies can be activated in response to different signalling processes.@bhattacharyyaReliefMicroRNAMediatedTranslational2006
+
+
+## What was the objective/hypothesis of this study?
+
+The central objective of this study is to characterize the role played by CPEB3  in promoting LTP through its localization into dendritic p-body like structures as a form of mRNA translation inhibition.
+Furthmore, the proposed mechansim of action is the through small ubiquitin-like modifier (SUMOylation) of these CPEB3 which cause this localization and thus inhibitation of mRNA translation.
+
+# QMRC
+
+## Figure 1
+
+RRM1 is required for CPEB3’s localization to P bodies.
+
+### Panel A
+
+![](2024-01-28-12-29-52.png)
+
+**Q** Where does CPEB3 colocalize in the HeLa cells (and is it within the P-bodies)?
+
+**M** Transfected HeLa cells with GFP tagged Ago2, HA-GW182. Ago2 and HA-GW182 are known to be markers of p-bodies. Using flouroscropy we can examine where these different tagged proteins locate and can assess if they are colocated (indicating that CPEB3 is likely in these target p-bodies)
+
+**R** We see high levels of collocation of these proteins.
+
+**C** CPEB3 appears to colocate within p-bodies.
+
+
+
+### Panel B
+
+>CPEB3-DsRed colocalizes with endogenous P-body markers Dcp1 and Ago2. White puncta represent sites of CPEB3, Ago2, and Dcp1 colocalization and are distinguished with white arrows.
+
+![](2024-01-28-12-31-41.png)
+
+**Q** Does decapping protein 1 (Dcp1) also colocalize with CBEP3?
+
+**M** Transfected HeLa cells with GFP Dcp1. Dcp1 is known to be markers of p-bodies. Using flouroscropy we can examine where these different tagged proteins locate and can assess if they are colocated (indicating that CPEB3 is likely in these target p-bodies)
+
+**R** We see high levels of collocation of these proteins.
+
+**C** CPEB3 appears to colocate within p-bodies (and maybe be inactivated through the 5'-3' degradation of deadenylated mRNA)
+
+
+### Panel C
+
+![](2024-01-28-12-32-05.png)
+
+**Q** Where does CPEB3 colocalize in the mouse neuron cells (and is it within the P-bodies)?
+
+**M** Transfected HeLa cells with GFP tagged Ago2, HA-GW182. Ago2 and HA-GW182 are known to be markers of p-bodies. Using flouroscropy we can examine where these different tagged proteins locate and can assess if they are colocated (indicating that CPEB3 is likely in these target p-bodies)
+
+**R** We see high levels of collocation of these proteins.
+
+**C** CPEB3 appears to colocate within p-bodies.
+
+### Panel D
+
+![](2024-01-28-12-32-19.png)
+
+**Q** Does CBPEB3 physically interact with the components of the P-body
+
+**M** Coimmunoprecepitation  on transinfected HEK cells using WG182 and HA methods.
+
+**R** Could not immunoprecipitate Algo. Found evidence of coimmunopreciptation with GW182 and the CPEB3-EGF (i). Similarly, using HA, found that coimmunopreciptation of AGO2 and CPEB3-HA (ii).
+
+**C** These data suggest that CPEB3 and GW182 and AGO2 have direct physical interactions (and thus the different p-body proteins)
+
+
+## Figure 2
+
+>RRM1 is required for CPEB3’s localization to P bodies.
+
+### Panel A
+
+![](2024-01-28-13-18-07.png)
+
+
+**Q** What are the critical sites required for physical interactions with the p-body associated proteins?
+
+**M** Create truncation mutants which remove particular regions allowing us to explore their interaction (by absense of colocalization in the resulting imagery).
+
+**R** Creation of the truncation mutants sucessful with GFP tags showing the localization
+
+**C** These truncation mutants will work for our experimental design as we have laid it out.
+
+### Panel B
+
+![](2024-01-28-13-18-32.png)
+
+**Q** Is the N-terminal domain required for phsycial interaction and colocalization with the p-body proteins?
+
+**M** Cotransfected each truncation mutant of CPEB3 with GFP-Ago2 or HA-GW182 and fluorescence
+
+**R** No real change in colocalization.
+
+**C** CPEB3 does not require N-terminal domain to enter bodies.
+
+### Panel C
+
+![](2024-01-28-13-18-56.png)
+
+**Q** Is the RRM2 domain required for phsycial interaction and colocalization with the p-body proteins?
+
+**M** Cotransfected each truncation mutant of CPEB3 with GFP-Ago2 or HA-GW182 and fluorescence
+
+**R** Very little colocation observed under imaging indicating that there is inhibition of some kind.
+
+**C** Deletion of RRM2 does impact colocalization
+
+### Panel D
+
+![](2024-01-28-13-19-11.png)
+
+**Q** Is the ZnF domain required for phsycial interaction and colocalization with the p-body proteins?
+
+**M** Cotransfected each truncation mutant of CPEB3 with GFP-Ago2 or HA-GW182 and fluorescence
+
+**R** Very little disruption observed.
+
+**C** ZnF deletion disrupts colocation with HA-Ago2
+
+### Panel E
+
+![](2024-01-28-13-19-31.png)
+
+**Q** Is the RRM1 domain required for phsycial interaction and colocalization with the p-body proteins?
+
+**M** Cotransfected each truncation mutant of CPEB3 with GFP-Ago2 or HA-GW182 and fluorescence
+
+**R** Very little colocation observed.
+
+**C** RRM1 deletion disrupts colocation with HA-Ago2
+
+
+## Figure 3
+
+RRM1 is required for CPEB3-mediated translation repression.
+The majority of this figure is associated with if CPEB3 is linked to translational regulatory activity.
+
+### Panel A
+
+![](2024-01-28-13-20-34.png)
+
+**Q** What is the regulatory activity of CBEP3 on GluA1.
+
+**M** Using the tagged CPEB3 and GluaA2, measure the concentration of GluA2 at the basal state and with addition of Glu in both the wild-type CPEB3 and RMM1 knockout.
+
+**R** We find that GluA2 concentration increased only in the wild-type compared to the basal state.
+
+**C** This suggests that CPEB3 has a regulatory effect on GluA1 levels through RMM1 interactions. 
+
+### Panel B
+
+![](2024-01-28-13-20-51.png)
+
+**Q** What is the regulatory activity of CBEP3 on GluA1.
+
+**M** Using the tagged CPEB3 and GluaA2, measure the concentration of GluA2 at the basal state and with addition of Glu in both the wild-type CPEB3 and RMM1 knockout.
+
+**R** We find that GluA2 concentration increased only in the wild-type compared to the basal state (same as A but quantified rather than visualized).
+
+**C** This suggests that CPEB3 has a regulatory effect on GluA1 levels through RMM1 interactions. 
+
+### Panel C
+
+![](2024-01-28-13-21-06.png)
+
+**Q** Are the results observed using the methods described in Panel B reproducible using another methodology (e.g, GluA2 levels are a result of CPEB2A mRNA translation)
+
+**M** Using a reporter construct containing GluA2 3'UTR fused to DsRed to allow finer understanding of DsRed expression as a proxy for GluA2 expression.
+
+**R** No observed differences between the mock (control) and the RMM1 knockout while significant differences observed in the wild-type CPEB3  with 50% decrease in 3'UTR report translation and disappearence of Dsred on the gel.
+
+**C** These results suggest that CPEB3 is important for repressing translation.
+
+
+### Panel D
+
+![](2024-01-28-13-21-21.png)
+
+**Q** Does CPEB3 translocate as we anticipate it would following stimulation?
+
+**M** Stimulate the cells with glutamate and then perform fractionation.
+
+**R** Compared to basal proportions we find that exposure to glutamate results in an increate the polysomal fractions both quantitively and in the gels.
+
+**C** This result supports the idea of translation of the CPEB3 proteins after exitation.
+
+## Figure 4
+
+>To test whether this was the case, we evoked chemical LTP with forskolin and rolipram and observed CPEB3-expressing hippocampal neurons over time. We evaluated 5 time points: 0 min, 5 min, 15 min, 30 min, and 1 h poststimulation and tracked Dcp1- and CPEB3colabeled puncta. We observed a significant decrease in CPEB3 and Dcp1 colocalization by the 30-min time point and saw an increase to baseline colocalization by 1 h in distal processes
+
+### Panel A
+
+>Quantification of distal dendritic CPEB3 and Dcp1 colocalization over time, after cLTP stimulation.
+
+![](2024-01-28-13-43-08.png)
+
+**Q** What are the temporal dynamics of CPEB3 colocalization with p-bodies (E.g., the time course of their colocalization)
+
+**M** Evoke chemical LTP with forkolin and rolipram in mouse hippocampal neurons. At a several intervals the cells were then fixed using 4% PFA, 5% sucrose PBS. R(obs) represents the observed correlation of Green and Red signals representing their colocalization.
+
+**R** there were evidence of some distal changes in colocalization between the basal and 30 minute marks.
+
+**C** This figure is not really convincing, but it does show that there could be some temporal dynamics with CPEB3 indicating a potential time series for when this occurs.
+
+### Panel B
+
+![](2024-01-28-13-43-23.png)
+
+This figure looks at the soma where the prior figure looks at the distal locations. The results are similar in that at about 30 minutes we see some potential microgration of CPEB3 from the p-bodies which could be the moment when LTP is being promoted.
+
+**Q** What are the temporal dynamics of CPEB3 colocalization with p-bodies (E.g., the time course of their colocalization).
+
+**M** Evoke chemical LTP with forkolin and rolipram in mouse hippocampal neurons. At a several intervals the cells were then fixed using 4% PFA, 5% sucrose PBS. R(obs) represents the observed correlation of Green and Red signals representing their colocalization.
+
+**R** there were evidence of some distal changes in colocalization between the basal and 30 minute marks.
+
+**C** This figure is not really convincing, but it does show that there could be some temporal dynamics with CPEB3 indicating a potential time series for when this occurs.
+
+### Panel C
+
+![](2024-01-28-13-43-43.png)
+
+This figure is the underlying imaging work as shown in Panel A and Panel B.
+
+**Q** What are the temporal dynamics of CPEB3 colocalization with p-bodies (E.g., the time course of their colocalization).
+
+**M** Evoke chemical LTP with forkolin and rolipram in mouse hippocampal neurons. At a several intervals the cells were then fixed using 4% PFA, 5% sucrose PBS. R(obs) represents the observed correlation of Green and Red signals representing their colocalization.
+
+**R** there were evidence of some distal changes in colocalization between the basal and 30 minute marks.
+
+**C** This figure is not really convincing, but it does show that there could be some temporal dynamics with CPEB3 indicating a potential time series for when this occurs.
+
+
+## Figure 5
+
+>SUMO mediates CPEB3 phase separation in vitro.
+
+### Panel A
+
+![](2024-01-28-13-44-06.png)
+
+**Q** Can we use size-exclusion chromatography to understand how CPEB3 localizes to P-bodies
+
+**M** Generate a recombinant CPEBEB3-HA in HEK cells and then immunoprecipiate using the HA and then use SEC and examine under a Western blot.
+
+**R** Immunoprecipation shows that the CPEB3 can be isolated.
+
+**C** This approach will work as designed for the remaining experiments.
+
+### Panel B
+
+![](2024-01-28-13-44-23.png)
+
+**Q** Can we use size-exclusion chromatography to understand how CPEB3 localizes to P-bodies
+
+**M** Generate a recombinant CPEBEB3-HA in HEK cells and then immunoprecipiate using the HA and then use SEC and examine under a chromatogram
+
+**R** SEC shows one sharp peak of the desired precipitate.
+
+**C** This approach will work as designed for the remaining experiments.
+
+### Panel C
+
+![](2024-01-28-13-44-38.png)
+
+**Q** Does SUMO affect the ability of CPEB3 to phase separate?
+
+**M** Add SUMO1, SUMO2, and SUMO3 and molecular crowding agents to see if phase separation can be induced. 
+
+**R** A phase transition is observed in vitro with a cloudy solution (i.e., higher turbidity). 
+
+**C** CPEB3 undergoes a phase transition when SUMOylated with SUMO1, SUMO2, and SUMO3
+
+### Panel D
+
+![](2024-01-28-13-44-57.png)
+
+**Q** If SUMOlyation is inhibited, will P-bodies and CPEB3 still localize? We hypothise that they should not if this colocalization is mediated through SUMO.
+
+
+**M** HeLa cells were transfected with the CPEB3 GFP marker and the P-body marker (using the tagged Dcp1 marker). The SUMO inhibitor is ginkgolic acid. Fluroscopic imaging was then performed to examine colocalization.
+
+**R** Lower rates of colocalization of CPEB3 with the p-bodies was observed.
+
+**C** SUMO must play a role with the ability of CPEB3 to colocalize within p-bodies.
+
+### Panel E
+
+![](2024-01-28-13-45-13.png)
+
+**Q** How does SUMOlyation mediate the response?
+
+
+**M** HeLa cells were transfected with DsRed GluA2 3′ UTR alone or in the presence of CPEB3 and SUMO where changes in the report signal would be a consequence of its translation
+
+**R** The reporter signal is significantly reduced in the presence of CPEB3 and is even further reduced when SUMO is added.
+
+**C** SUMO presence appears to play a role in mediating the activity and availability of CPEB3.
+
+# Definitions
+
+Synaptic plasticity 
+The ability of a neuron to modify the strength of their connections typically following the "use it or lose it" rule.
+Believed to underlie new memories.
+
+LTP
+Long term potentiation is believed to be the cellular basis for memories.
+Best measured at the glumate receptors, especially at glutamatergic neurons when stimulated in the hippocampus.
+Glutamate is release and then AMPA and NMDA receptors (ion channels) that bind.
+Only a small amount is released in a weak stimulus (AMPA only) with NMDA blocked by Mg2+.
+Large amounts of glutamate will admit for AMPA (more depolization) and NMDA channel opens allowing Ca2+ which is important for LTP induction.
+This phosphoylates and brings vesciles to surface (short term memory)
+Gene expression alternation in long term memory.
+
+
+HEK293 cell line is immortalized human embryonic kidney cells.
+
+# References
