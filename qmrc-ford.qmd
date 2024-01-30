@@ -12,10 +12,17 @@ format:
     columns: 1
 ---
 
-# Initial Questions
+::: {.block fill="luma(230)" inset="8pt" radius="4pt"}
+
+To see the latest version check <https://medewitt.github.io/bio720/qmrc-ford.pdf>.
+
+:::
 
 
-## Why is "new protein synthesis" required for LTP? What are some examples of new proteins that are made?
+# Initial Questions {.unnumbered}
+
+
+## Why is "new protein synthesis" required for LTP? What are some examples of new proteins that are made? {.unnumbered}
 
 For long term potentiation to occur, there must be semi-permanent changes (i.e., in the absense of stimualtion the signalling pathways must be modified).
 These occur outside of the germline (i.e., the genes are already made so expression needs to be changed in response to stimulus). 
@@ -24,7 +31,7 @@ Several of the proteins that are made are:
 - MAPK or mitogen-activated protein kinases which generally phosphorylate. @cargnelloActivationFunctionMAPKs2011
 - cAMP response element-binding protein which a celluar transcription factor which can alter gene expression for forming long term memories. @silvaCREBMemory1998
 
-## What is CPEB3, and what was already known about it before this study?
+## What is CPEB3, and what was already known about it before this study? {.unnumbered}
 
 Cytoplasmic polyadenylation element binding protein 3 (CPEB3) is a protein involved in memory formation and is believed to be key for memory formation and serves as a post-transcription control on mRNA translation.
 CPE proteins can promote polyadenylation of mRNAs which have shortened polyA tails, thus allowing for translation. @voglerCPEB3AssociatedHuman2009
@@ -33,7 +40,7 @@ Studies have shown that CPEB3 specifically is important for maintance of long te
 CPEB3 when in itys partially soluable form is thought to promote maintenance of memory formulation through the regulation of mRNA translation targets of AMPA and NMDA subunits along with actin and postsynapic density proteins. 
 When CPEB3 is in its soluable form it inhibits target mRNA translation.
 
-## What are dendritic P body-like structures? What was already known about these structures?
+## What are dendritic P body-like structures? What was already known about these structures? {.unnumbered}
 
 >In a middle-ground purgatory, mRNAs are maintained in a silenced state, neither translated nor degraded, but stored until future conditions determine their fate. In eukaryotic cells, mRNAs in “purgatory” enrich in cytoplasmic condensates called “processing bodies” or “P-bodies” for short. @cassaniPbodylikeCondensatesGermline2024
 
@@ -45,7 +52,7 @@ These bodies have shown some motorized movements within the neurons to sites whe
 It has also been suggested that repressed mRNAs stored in the P-modies can be activated in response to different signalling processes.@bhattacharyyaReliefMicroRNAMediatedTranslational2006
 
 
-## What was the objective/hypothesis of this study?
+## What was the objective/hypothesis of this study? {.unnumbered}
 
 The central objective of this study is to characterize the role played by CPEB3  in promoting LTP through its localization into dendritic p-body like structures as a form of mRNA translation inhibition.
 Furthmore, the proposed mechansim of action is the through small ubiquitin-like modifier (SUMOylation) of these CPEB3 which cause this localization and thus inhibitation of mRNA translation.
@@ -58,7 +65,7 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 ### Panel A
 
-![](2024-01-28-12-29-52.png)
+![](2024-01-28-12-29-52.png){width=80%}
 
 **Q** Where does CPEB3 colocalize in the HeLa cells (and is it within the P-bodies)?
 
@@ -116,7 +123,7 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 ### Panel A
 
-![](2024-01-28-13-18-07.png)
+![](2024-01-28-13-18-07.png){width=80%}
 
 
 **Q** What are the critical sites required for physical interactions with the p-body associated proteins?
@@ -183,7 +190,7 @@ The majority of this figure is associated with if CPEB3 is linked to translation
 
 ### Panel A
 
-![](2024-01-28-13-20-34.png)
+![](2024-01-28-13-20-34.png){width=80%}
 
 **Q** What is the regulatory activity of CBEP3 on GluA1.
 
@@ -264,7 +271,7 @@ This figure looks at the soma where the prior figure looks at the distal locatio
 
 ### Panel C
 
-![](2024-01-28-13-43-43.png)
+![](2024-01-28-13-43-43.png){width=80%}
 
 This figure is the underlying imaging work as shown in Panel A and Panel B.
 
@@ -319,7 +326,7 @@ This figure is the underlying imaging work as shown in Panel A and Panel B.
 
 ### Panel D
 
-![](2024-01-28-13-44-57.png)
+![](2024-01-28-13-44-57.png){width=80%}
 
 **Q** If SUMOlyation is inhibited, will P-bodies and CPEB3 still localize? We hypothise that they should not if this colocalization is mediated through SUMO.
 
@@ -332,7 +339,7 @@ This figure is the underlying imaging work as shown in Panel A and Panel B.
 
 ### Panel E
 
-![](2024-01-28-13-45-13.png)
+![](2024-01-28-13-45-13.png){width=80%}
 
 **Q** How does SUMOlyation mediate the response?
 
@@ -345,11 +352,10 @@ This figure is the underlying imaging work as shown in Panel A and Panel B.
 
 # Definitions
 
-Synaptic plasticity 
-The ability of a neuron to modify the strength of their connections typically following the "use it or lose it" rule.
+**Synaptic plasticity** The ability of a neuron to modify the strength of their connections typically following the "use it or lose it" rule.
 Believed to underlie new memories.
 
-LTP
+**LTP**
 Long term potentiation is believed to be the cellular basis for memories.
 Best measured at the glumate receptors, especially at glutamatergic neurons when stimulated in the hippocampus.
 Glutamate is release and then AMPA and NMDA receptors (ion channels) that bind.
@@ -358,7 +364,6 @@ Large amounts of glutamate will admit for AMPA (more depolization) and NMDA chan
 This phosphoylates and brings vesciles to surface (short term memory)
 Gene expression alternation in long term memory.
 
-
-HEK293 cell line is immortalized human embryonic kidney cells.
+*HEK293* cell line is composed of immortalized human embryonic kidney cells.
 
 # References
