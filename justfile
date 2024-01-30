@@ -20,6 +20,12 @@ behaviour:
     cp behaviour.pdf docs/behaviour.pdf
     ./buildhtml.sh
 
+molecular:
+    quarto render qmrc-ford.qmd
+    rm -f docs/qmrc-ford.pdf
+    cp qmrc-ford.pdf docs/qmrc-ford.pdf
+    ./buildhtml.sh
+
 update:
     git add --all
     git commit -m "updating latest"
