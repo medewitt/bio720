@@ -73,7 +73,7 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 **R** We see high levels of collocation of these proteins.
 
-**C** CPEB3 appears to colocate within p-bodies.
+**C** CPEB3 appears to colocate within p-bodies proteins in our model system (i.e., transfected HeLa cells).
 
 
 
