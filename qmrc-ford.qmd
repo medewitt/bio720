@@ -49,7 +49,7 @@ While they cannot be translated while in a p-body structure, they are also not d
 Further, they behave similar to liquid droplets and are not vesicles.
 Additional studies have found that the p-body-like cells in neurons are enriched, often near the synapses in these neuronal cells. @cougotDendritesMammalianNeurons2008
 These bodies have shown some motorized movements within the neurons to sites where activation occurs. @cougotDendritesMammalianNeurons2008
-It has also been suggested that repressed mRNAs stored in the P-modies can be activated in response to different signalling processes.@bhattacharyyaReliefMicroRNAMediatedTranslational2006
+It has also been suggested that repressed mRNAs stored in the P-modies can be activated in response to different signalling processes. @bhattacharyyaReliefMicroRNAMediatedTranslational2006
 
 
 ## What was the objective/hypothesis of this study? {.unnumbered}
