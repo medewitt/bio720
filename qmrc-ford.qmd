@@ -37,7 +37,7 @@ Cytoplasmic polyadenylation element binding protein 3 (CPEB3) is a protein invol
 CPE proteins can promote polyadenylation of mRNAs which have shortened polyA tails, thus allowing for translation. @voglerCPEB3AssociatedHuman2009
 In mice is has been shown that CPEs are expressed in the hypocampus, though to be central for memory formation. @fordCPEB3InhibitsTranslation2019
 Studies have shown that CPEB3 specifically is important for maintance of long term memory storage with observed upregulation after stimuli.
-CPEB3 when in itys partially soluable form is thought to promote maintenance of memory formulation through the regulation of mRNA translation targets of AMPA and NMDA subunits along with actin and postsynapic density proteins. 
+CPEB3 when in its partially soluable form is thought to promote maintenance of memory formulation through the regulation of mRNA translation targets of AMPA and NMDA subunits along with actin and postsynapic density proteins. 
 When CPEB3 is in its soluable form it inhibits target mRNA translation.
 
 ## What are dendritic P body-like structures? What was already known about these structures? {.unnumbered}
@@ -354,6 +354,14 @@ This figure is the underlying imaging work as shown in Panel A and Panel B.
 
 **Synaptic plasticity** The ability of a neuron to modify the strength of their connections typically following the "use it or lose it" rule.
 Believed to underlie new memories.
+
+**CBEP3**
+HAs been shown to increase oligopolymerazation and in the promotion of mRNA translation in the glutamine-rich domain.
+CBEP3 regulates the translation of mRNA targets including the AMPA-type glutamate receptors.
+
+**Dcp1**
+A critical component of p-bodies is stably associated with d1P bodies in unstimulated cells but exchanges rapdily up neuronal activation (similar to loss of Ago2 from p-bodies).
+This means that they may play a role in the storage of suppressed mRNA molecules.
 
 **LTP**
 Long term potentiation is believed to be the cellular basis for memories.
