@@ -40,6 +40,9 @@ Studies have shown that CPEB3 specifically is important for maintance of long te
 CPEB3 when in its partially soluable form is thought to promote maintenance of memory formulation through the regulation of mRNA translation targets of AMPA and NMDA subunits along with actin and postsynapic density proteins. 
 When CPEB3 is in its soluable form it inhibits target mRNA translation.
 
+- soluable is basal state correlated with inhibited translation
+- after LTP signal becomes soluable oligomer format increased in translation of target
+
 ## What are dendritic P body-like structures? What was already known about these structures? {.unnumbered}
 
 >In a middle-ground purgatory, mRNAs are maintained in a silenced state, neither translated nor degraded, but stored until future conditions determine their fate. In eukaryotic cells, mRNAs in “purgatory” enrich in cytoplasmic condensates called “processing bodies” or “P-bodies” for short. @cassaniPbodylikeCondensatesGermline2024
@@ -194,7 +197,7 @@ The majority of this figure is associated with if CPEB3 is linked to translation
 
 **Q** What is the regulatory activity of CBEP3 on GluA1.
 
-**M** Using the tagged CPEB3 and GluaA2, measure the concentration of GluA2 at the basal state and with addition of Glu in both the wild-type CPEB3 and RMM1 knockout. 
+**M** Using the tagged CPEB3 and GluaA2, measure the concentration of GluA2 at the basal state and with addition of Glu in both the wild-type CPEB3 and RMM1 knockout. We would anticipate that if in the basal state with CBEP3 there shuld be no GluA2 (in repression state), With the addtion of Glumate acting as a signal, we woud anticipate activation of GluA showing that activity took place. With the modofied CBEP3 we would anticipate that the excitation would not have an effect.
 
 **R** We find that GluA2 concentration increased only in the wild-type compared to the basal state.
 
@@ -210,7 +213,7 @@ The majority of this figure is associated with if CPEB3 is linked to translation
 
 **R** We find that GluA2 concentration increased only in the wild-type compared to the basal state (same as A but quantified rather than visualized).
 
-**C** This suggests that CPEB3 has a regulatory effect on GluA1 levels through RMM1 interactions. 
+**C** This suggests that CPEB3 has a regulatory effect on GluA1 levels through RMM1 interactions. When RMM! mutation is in place i the GluA protein is both higher in the basal and glutamate states. 
 
 ### Panel C
 
@@ -218,9 +221,9 @@ The majority of this figure is associated with if CPEB3 is linked to translation
 
 **Q** Are the results observed using the methods described in Panel B reproducible using another methodology (e.g, GluA2 levels are a result of CPEB2A mRNA translation)
 
-**M** Using a reporter construct containing GluA2 3'UTR fused to DsRed to allow finer understanding of DsRed expression as a proxy for GluA2 expression.
+**M** Using a reporter construct containing GluA2 3'UTR fused to DsRed to allow finer understanding of DsRed expression as a proxy for GluA2 expression. This is then run on a Western plot to better understand that given the different proteins how much were quantified.
 
-**R** No observed differences between the mock (control) and the RMM1 knockout while significant differences observed in the wild-type CPEB3  with 50% decrease in 3'UTR report translation and disappearence of Dsred on the gel.
+**R** No observed differences between the mock (control) and the RMM1 knockout while significant differences observed in the wild-type CPEB3  with 50% decrease in 3'UTR report translation and disappearence of Dsred on the gel. Dsred from the GluA2 3'UTR was not present when treated with the CBEP3 showing the regulatory/ repression. Our GFP control with Globin was consistent.
 
 **C** These results suggest that CPEB3 is important for repressing translation.
 
@@ -229,13 +232,13 @@ The majority of this figure is associated with if CPEB3 is linked to translation
 
 ![](2024-01-28-13-21-21.png)
 
-**Q** Does CPEB3 translocate as we anticipate it would following stimulation?
+**Q** Does CPEB3 translocate as we anticipate it would following stimulation? Can we detect this migration in the polysomes.
 
-**M** Stimulate the cells with glutamate and then perform fractionation.
+**M** Stimulate the cells with glutamate and then perform fractionation to understand where and quantify the amount of CPEB3 in the different locations. We would expecyt that in the basal state that CBEPB3 is in the cytosol and moves to the polysomes after stimulation. L7 should always be found in the polysomes. 
 
 **R** Compared to basal proportions we find that exposure to glutamate results in an increate the polysomal fractions both quantitively and in the gels.
 
-**C** This result supports the idea of translation of the CPEB3 proteins after exitation.
+**C** This result supports the idea of translocation of the CPEB3 proteins after exitation (e.g., move to the polysomes).
 
 ## Figure 4
 
@@ -355,9 +358,14 @@ This figure is the underlying imaging work as shown in Panel A and Panel B.
 **Synaptic plasticity** The ability of a neuron to modify the strength of their connections typically following the "use it or lose it" rule.
 Believed to underlie new memories.
 
+**SUMO**
+Small protein that gets covalently attached to tagret proteins and regulates their interactions. Can change interactions and proteins and is considered ubiquitin-like just because it looks like ubiquitin.
+
 **CBEP3**
 HAs been shown to increase oligopolymerazation and in the promotion of mRNA translation in the glutamine-rich domain.
 CBEP3 regulates the translation of mRNA targets including the AMPA-type glutamate receptors.
+
+Moves into the cytoplasm from the nucleous using a nuclear export signal (NES).
 
 **Dcp1**
 A critical component of p-bodies is stably associated with d1P bodies in unstimulated cells but exchanges rapdily up neuronal activation (similar to loss of Ago2 from p-bodies).
