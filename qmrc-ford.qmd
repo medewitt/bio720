@@ -69,11 +69,11 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 **Q** Where does CPEB3 colocalize in the HeLa cells (and is it within the P-bodies)?
 
-**M** Transfected HeLa cells with GFP tagged Ago2, HA-GW182. Ago2 and HA-GW182 are known to be markers of p-bodies. Using flouroscropy we can examine where these different tagged proteins locate and can assess if they are colocated (indicating that CPEB3 is likely in these target p-bodies)
+**M** Transfected HeLa cells with GFP tagged Ago2, HA-GW182. Ago2 and HA-GW182 are known to be markers of p-bodies. Using flouroscropy we can examine where these different tagged proteins locate and can assess if they are colocated (indicating that CPEB3 is likely in these target p-bodies). We will do this by superimposing the images to show that they exist in the same space.
 
-**R** We see high levels of collocation of these proteins.
+**R** We see high levels of collocation of these proteins. We see clearly that the target cells are visible.
 
-**C** CPEB3 appears to colocate within p-bodies proteins in our model system (i.e., transfected HeLa cells).
+**C** CPEB3 appears to colocate within p-bodies proteins in our model system (i.e., transfected HeLa cells). This is good in that we can have confidence that our experimental methods should.
 
 
 
@@ -98,11 +98,11 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 **Q** Where does CPEB3 colocalize in the mouse neuron cells (and is it within the P-bodies)?
 
-**M** Transfected HeLa cells with GFP tagged Ago2, HA-GW182. Ago2 and HA-GW182 are known to be markers of p-bodies. Using flouroscropy we can examine where these different tagged proteins locate and can assess if they are colocated (indicating that CPEB3 is likely in these target p-bodies)
+**M** Transfected mouse neuronal cells with GFP tagged Ago2, HA-GW182. Ago2 and HA-GW182 are known to be markers of p-bodies. Using flouroscropy we can examine where these different tagged proteins locate and can assess if they are colocated (indicating that CPEB3 is likely in these target p-bodies)
 
-**R** We see high levels of collocation of these proteins.
+**R** We see high levels of collocation of these proteins. The Dcp1 is very difficult to see.
 
-**C** CPEB3 appears to colocate within p-bodies.
+**C** CPEB3 appears to colocate within p-bodies (as identified by the Ago2 and GW182 markers).
 
 ### Panel D
 
@@ -110,11 +110,11 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 **Q** Does CBPEB3 physically interact with the components of the P-body
 
-**M** Coimmunoprecepitation  on transinfected HEK cells using WG182 and HA methods.
+**M** Coimmunoprecepitation  on transinfected HEK cells using WG182 and HA methods. This methods allows for the immunopreciptation of target proteins that are bound to another protein of interest. This allows us to capture specific protein-protein interactions. Immunopreciptation allows us to precipitate and quantify proteins of interest using antibody tags.
 
-**R** Could not immunoprecipitate Algo. Found evidence of coimmunopreciptation with GW182 and the CPEB3-EGF (i). Similarly, using HA, found that coimmunopreciptation of AGO2 and CPEB3-HA (ii).
+**R** The researchers could not immunoprecipitate Algo. Found evidence of coimmunopreciptation with GW182 and the CPEB3-EGF (i) as shown by the thick bands. Similarly, using HA, found that coimmunopreciptation of AGO2 and CPEB3-HA (ii).
 
-**C** These data suggest that CPEB3 and GW182 and AGO2 have direct physical interactions (and thus the different p-body proteins)
+**C** These data suggest that CPEB3 and GW182 and AGO2 have direct physical interactions (and thus the different p-body proteins). These results are pretty convincing.
 
 
 ## Figure 2
@@ -128,11 +128,11 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 **Q** What are the critical sites required for physical interactions with the p-body associated proteins?
 
-**M** Create truncation mutants which remove particular regions allowing us to explore their interaction (by absense of colocalization in the resulting imagery).
+**M** Create truncation mutants which remove particular regions allowing us to explore their interaction (by absense of colocalization in the resulting imagery). These mutants were generated with particular characteristics which will allow the exporation of different protential mechanisms of colocalization (E.g., what protein interactions and domains are important for colocation).
 
 **R** Creation of the truncation mutants sucessful with GFP tags showing the localization
 
-**C** These truncation mutants will work for our experimental design as we have laid it out.
+**C** These truncation mutants will work for our experimental design as we have laid it out. They didn't provide a lot of detailed methods for how these were generated. The image shows that we can see the mutants under imaging though some appear more clearly than others.
 
 ### Panel B
 
@@ -142,9 +142,9 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 **M** Cotransfected each truncation mutant of CPEB3 with GFP-Ago2 or HA-GW182 and fluorescence
 
-**R** No real change in colocalization.
+**R** No real change in colocalization and evidenced by the imaging with more clear localization on the three images.
 
-**C** CPEB3 does not require N-terminal domain to enter bodies.
+**C** CPEB3 does not require N-terminal domain to form p-bodies or at least it does not appear so.
 
 ### Panel C
 
@@ -154,9 +154,9 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 **M** Cotransfected each truncation mutant of CPEB3 with GFP-Ago2 or HA-GW182 and fluorescence
 
-**R** Very little colocation observed under imaging indicating that there is inhibition of some kind.
+**R** Very little colocation observed under imaging indicating that there is inhibition of some kind. There is very clearly a reduced about of the red tag present on the image which suggests that they are not present together with the p-body specific proteins
 
-**C** Deletion of RRM2 does impact colocalization
+**C** Deletion of RRM2 does impact colocalization. This seems to be a pretty strong image indicating that these two proteins are not appearing together.
 
 ### Panel D
 
@@ -166,9 +166,9 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 **M** Cotransfected each truncation mutant of CPEB3 with GFP-Ago2 or HA-GW182 and fluorescence
 
-**R** Very little disruption observed.
+**R** Very little disruption observed as evidenced by the existing of the two tags existing together.
 
-**C** ZnF deletion disrupts colocation with HA-Ago2
+**C** ZnF deletion disrupts colocation with HA-Ago2. This is a good graphic.
 
 ### Panel E
 
@@ -180,7 +180,7 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 **R** Very little colocation observed.
 
-**C** RRM1 deletion disrupts colocation with HA-Ago2
+**C** RRM1 deletion disrupts colocation with HA-Ago2 . This appears a little less disrupted by RMM2 in the prior panel.
 
 
 ## Figure 3
@@ -194,7 +194,7 @@ The majority of this figure is associated with if CPEB3 is linked to translation
 
 **Q** What is the regulatory activity of CBEP3 on GluA1.
 
-**M** Using the tagged CPEB3 and GluaA2, measure the concentration of GluA2 at the basal state and with addition of Glu in both the wild-type CPEB3 and RMM1 knockout.
+**M** Using the tagged CPEB3 and GluaA2, measure the concentration of GluA2 at the basal state and with addition of Glu in both the wild-type CPEB3 and RMM1 knockout. 
 
 **R** We find that GluA2 concentration increased only in the wild-type compared to the basal state.
 
