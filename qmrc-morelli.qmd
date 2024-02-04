@@ -34,17 +34,49 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ![](2024-02-04-15-59-56.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel B
 
 ![](2024-02-04-16-00-41.png)
+
+### Q
+
+### M
+
+### R
+
+### C
 
 ## Panel C
 
 ![](2024-02-04-16-00-56.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel D
 
 ![](2024-02-04-16-01-10.png)
+
+### Q
+
+### M
+
+### R
+
+### C
 
 
 
@@ -56,13 +88,37 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ![](2024-02-04-16-02-29.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel B
 
 ![](2024-02-04-16-02-41.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel C
 
 ![](2024-02-04-16-02-51.png)
+
+### Q
+
+### M
+
+### R
+
+### C
 
 # Figure 3
 
@@ -72,13 +128,37 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ![](2024-02-04-16-03-50.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel B
 
 ![](2024-02-04-16-04-03.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel C
 
 ![](2024-02-04-16-04-20.png)
+
+### Q
+
+### M
+
+### R
+
+### C
 
 # Figure 4
 
@@ -88,21 +168,61 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ![](2024-02-04-16-05-05.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel B
 
 ![](2024-02-04-16-05-16.png)
+
+### Q
+
+### M
+
+### R
+
+### C
 
 ## Panel C
 
 ![](2024-02-04-16-05-26.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel D
 
 ![](2024-02-04-16-05-39.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel E
 
 ![](2024-02-04-16-05-53.png)
+
+### Q
+
+### M
+
+### R
+
+### C
 
 # Figure 5
 
@@ -112,21 +232,61 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ![](2024-02-04-16-08-26.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel B
 
 ![](2024-02-04-16-08-37.png)
+
+### Q
+
+### M
+
+### R
+
+### C
 
 ## Panel C
 
 ![](2024-02-04-16-08-48.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel D
 
 ![](2024-02-04-16-09-00.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel E
 
 ![](2024-02-04-16-09-11.png)
+
+### Q
+
+### M
+
+### R
+
+### C
 
 # Figure 6
 
@@ -136,20 +296,60 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ![](2024-02-04-16-09-21.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel B
 
 ![](2024-02-04-16-09-36.png)
+
+### Q
+
+### M
+
+### R
+
+### C
 
 ## Panel C
 
 ![](2024-02-04-16-09-47.png)
 
+### Q
+
+### M
+
+### R
+
+### C
+
 ## Panel D
 
 ![](2024-02-04-16-09-57.png)
+
+### Q
+
+### M
+
+### R
+
+### C
 
 # Figure 7
 
 >Diverse functions of viral PDL motif-containing proteins. The models depict how RV NSP1, EBV LMP1, HIV-1 Vpu, and VACV A49 disrupt -TrCP activity. These viral proteins use a PDL motif to (i) induce the turnover of -TrCP (degradation), (ii) block -TrCP from recognizing cellular phosphodegrons (interaction), or (iii) induce the turnover of cellular proteins by bridging -TrCP to these targets (adaptor). Yellow, serine residues of the PDL motif; orange, ubiquitin.
 
 ![](2024-02-04-16-07-45.png)
+
+### Q
+
+### M
+
+### R
+
+### C
