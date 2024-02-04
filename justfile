@@ -24,6 +24,10 @@ molecular:
     quarto render qmrc-ford.qmd
     rm -f docs/qmrc-ford.pdf
     cp qmrc-ford.pdf docs/qmrc-ford.pdf
+
+    quarto render qmrc-morelli.qmd
+    rm -f docs/qmrc-morelli.pdf
+    cp qmrc-morelli.pdf docs/qmrc-morelli.pdf
     ./buildhtml.sh
 
 update:

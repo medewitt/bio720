@@ -1,0 +1,155 @@
+---
+title: "QMRC of Morelli et al"
+author: "Michael DeWitt"
+date: "2024-01-31"
+bibliography: molecular.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-numeric-superscript-brackets.csl
+citeproc: true
+format:
+  typst:
+    toc: true
+    section-numbering: 1.1.a
+    columns: 1
+---
+
+::: {.block fill="luma(230)" inset="8pt" radius="4pt"}
+
+To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.pdf>.
+
+:::
+
+## How do cells "sense" when they are infected with a virus? How do they "turn on" interferon gene expression?
+
+## What was already known about regulation of the transcription factor NF-kB?
+
+## What was already known about the cellular targets of rotavirus NSP1?
+
+## What was the overall objective of this study?
+
+# Figure 1
+
+>FIG 1 Human and porcine RVA strains conserve a PDL motif within the NSP1 C terminus. (A and B) Maximum likelihood phylogenetic trees, assembled from 556 RVA NSP1 sequences collected globally since 1958. Branches are colored according to genotype. (A) Radial topology illustrates distances between the 16 RVA NSP1 genotypes shown. Genotype A1 resolves into four subgroups. The scale bar indicates phylogenetic distance (changes per site). (B) A circular cladogram shows phylogenetic relationships between NSP1 sequences isolated from different species. The inner ring is colored according to host species. The outer ring is colored according to the presence (dark red) or absence (white) of a C-terminal PDL motif (DSGxS). NSP1 sequences used in this study are indicated. (C, top) Arrangement of key NSP1 domains. The consensus sequence of the RING domain is shown. (Bottom) Alignment of NSP1 C termini into three major groups. The PDL motif and N-terminal lysine residue are shaded in grey. TD, targeting domain. (D) Alignment of viral PDL motifs and phosphodegrons from known targets of beta-TrCP, shaded as in panel C
+
+## Panel A
+
+![](2024-02-04-15-59-56.png)
+
+## Panel B
+
+![](2024-02-04-16-00-41.png)
+
+## Panel C
+
+![](2024-02-04-16-00-56.png)
+
+## Panel D
+
+![](2024-02-04-16-01-10.png)
+
+
+
+# Figure 2
+
+>OSU NSP1 requires an intact C terminus to target -TrCP for degradation. (A) Alignment of the C termini from OSU and SA11-4F NSP1 proteins. Arrowheads indicate the OSU-C13 and SA11-4F-C17 (SA11-5S) truncation mutants. The PDL motif is shaded in grey. (B) HEK293T cells were cotransfected with NSP1 and NF-B firefly and HSV-tk Renilla luciferase reporters. At 24 h p.t., cells were stimulated for 4 h with medium  25 ng/ml TNF-. Relative luciferase activity was calculated by normalizing firefly to Renilla luciferase activity. Data (mean  SD from one of three experiments performed in triplicate) were analyzed by two-way ANOVA (pairwise as indicated) using Tukey’s multiple comparisons test. (C) HEK293T cells cotransfected with NSP1 and FLAG--TrCP were assayed 24 h p.t. by quantitative immunoblotting (IB) (normalized to PCNA). The level of -TrCP is expressed as a percentage of -TrCP in OSU-C13-transfected cells. Data (mean  SD from three independent transfections) were analyzed pairwise with OSU. ns, not significant (P  0.05); **, P  0.01; ***, P  0.001. See also Fig. S1 to S4 in the supplemental material.
+
+## Panel A
+
+![](2024-02-04-16-02-29.png)
+
+## Panel B
+
+![](2024-02-04-16-02-41.png)
+
+## Panel C
+
+![](2024-02-04-16-02-51.png)
+
+# Figure 3
+
+>Human and porcine RVA NSP1 proteins conserve NF-B antagonist activity. (A) Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 proteins. The last four residues of SA11-4F NSP1 (DDNE) are not shown. Sites of variability in the consensus sequence (excluding SA11-4F) are shaded in gray, dots indicate positions of identity, and asterisks indicate the PDL motif. Hu, human; Po, porcine; Si, simian. (B) HEK293T cells were cotransfected with NSP1 and NF-B firefly and HSV-tk Renilla luciferase reporters. At 24 h p.t., cells were stimulated for 4 h with 25 ng/ml TNF-. Relative luciferase activity was calculated by normalizing firefly to Renilla luciferase activity. Data (mean  SD from one of three experiments performed in triplicate) were analyzed by two-way ANOVA (pairwise wt/C NSP1) using Sidak’s multiple comparisons test. (C) HEK293T cells cotransfected with NSP1 and FLAG--TrCP were assayed 24 h p.t. by quantitative immunoblotting (IB) (normalized to PCNA). For each NSP1, the level of -TrCP is expressed as a percentage of -TrCP in cells cotransfected with the corresponding C mutant. Data (mean  SD) are from three independent transfections. ***, P  0.001. See also Fig. S5 and S6 in the supplemental material
+
+## Panel A
+
+![](2024-02-04-16-03-50.png)
+
+## Panel B
+
+![](2024-02-04-16-04-03.png)
+
+## Panel C
+
+![](2024-02-04-16-04-20.png)
+
+# Figure 4
+
+>The serine residues of the PDL motif are required for NSP1 function. (A) Model for phosphorylation of the PDL motif of OSU NSP1 by CKI or CKII. Arrows point from the priming residue to the site of serine phosphorylation (shaded). 1A and -B, CKI; 2A and -B, CKII. (B and C) HEK293T cells were cotransfected with NSP1 and NF-B firefly and HSV-tk Renilla luciferase reporters. At 24 h p.t., cells were stimulated for 4 h with 25 ng/ml TNF-. Relative luciferase activity was calculated by normalizing firefly to Renilla luciferase activity. Data (mean  SD from one of three experiments performed in triplicate) were analyzed pairwise with OSU. (D) HEK293T cells cotransfected with NSP1 and FLAG--TrCP were assayed 24 h p.t. by quantitative immunoblotting (IB) (normalized to PCNA). The level of -TrCP is expressed as a percentage of -TrCP in OSU-C13-transfected cells. Data (mean  SD from three independent transfections) were analyzed pairwise with OSU. (E) HEK293T cells cotransfected with NSP1 and -TrCP were immunoprecipitated (IP) with anti-FLAG resin. Immunoblots represent 3% clarified wholecell lysate (WCL) and 10% eluted protein. ns, not significant (P  0.05); *, P  0.05; **, P  0.01; ***, P  0.001
+
+## Panel A
+
+![](2024-02-04-16-05-05.png)
+
+## Panel B
+
+![](2024-02-04-16-05-16.png)
+
+## Panel C
+
+![](2024-02-04-16-05-26.png)
+
+## Panel D
+
+![](2024-02-04-16-05-39.png)
+
+## Panel E
+
+![](2024-02-04-16-05-53.png)
+
+# Figure 5
+
+>NSP1 targets the phosphodegron-binding pocket of -TrCP. (A) Diagram of -TrCP domain organization and truncations. (B) HEK293T cells cotransfected with OSU NSP1 and FLAG--TrCP were assayed 24 h p.t. by quantitative immunoblotting (IB) (normalized to PCNA). The level of -TrCP is expressed as a percentage of -TrCP in OSU-C13-transfected cells. Data (mean  SD) are from three independent transfections. (C) Structure of the -TrCP WD40 domain (green) and associated -catenin phosphodegron peptide (yellow) (12). R510 is colored purple. (D) HEK293T cells cotransfected with OSU NSP1 and FLAG--TrCP were assayed 24 h p.t. by quantitative immunoblotting (normalized to PCNA). The level of -TrCP is expressed as a percentage of -TrCP in OSU-C13-transfected cells. Data (mean  SD) are from three independent transfections. (E) HEK293T cells cotransfected with NSP1 and -TrCP were immunoprecipitated (IP) with anti-FLAG resin. Immunoblots represent 3% clarified whole-cell lysate (WCL) and 10% eluted protein
+
+## Panel A
+
+![](2024-02-04-16-08-26.png)
+
+## Panel B
+
+![](2024-02-04-16-08-37.png)
+
+## Panel C
+
+![](2024-02-04-16-08-48.png)
+
+## Panel D
+
+![](2024-02-04-16-09-00.png)
+
+## Panel E
+
+![](2024-02-04-16-09-11.png)
+
+# Figure 6
+
+>The PDL motif is the minimum sequence required by NSP1 to target -TrCP. (A) Alignment of the C termini from OSU, SA11-4F, and 4F-OSU NSP1. Residues from OSU NSP1 are shaded in gray, and asterisks indicate the PDL motif. (B) HEK293T cells were cotransfected with NSP1 and NF-B firefly and HSV-tk Renilla luciferase reporters. At 24 h p.t., cells were stimulated for 4 h with 25 ng/ml TNF-. Relative luciferase activity was calculated by normalizing firefly to Renilla luciferase activity. Data (mean  SD from one of three experiments performed in triplicate) were analyzed pairwise with SA114F. (C) HEK293T cells cotransfected with NSP1 and FLAG--TrCP were assayed 24 h p.t. by quantitative immunoblotting (IB) (normalized to PCNA). The level of -TrCP is expressed as a percentage of -TrCP in SA11-5Stransfected cells. Data (mean  SD from three independent transfections) were analyzed pairwise with SA11-4F. (D) HEK293T cells cotransfected with NSP1 and -TrCP were immunoprecipitated (IP) with anti-FLAG resin. Immunoblots represent 3% clarified whole-cell lysate (WCL) and 10% eluted protein. ns, not significant (P  0.05); *, P  0.05; **, P  0.01; ***, P  0.001.
+
+## Panel A
+
+![](2024-02-04-16-09-21.png)
+
+## Panel B
+
+![](2024-02-04-16-09-36.png)
+
+## Panel C
+
+![](2024-02-04-16-09-47.png)
+
+## Panel D
+
+![](2024-02-04-16-09-57.png)
+
+# Figure 7
+
+>Diverse functions of viral PDL motif-containing proteins. The models depict how RV NSP1, EBV LMP1, HIV-1 Vpu, and VACV A49 disrupt -TrCP activity. These viral proteins use a PDL motif to (i) induce the turnover of -TrCP (degradation), (ii) block -TrCP from recognizing cellular phosphodegrons (interaction), or (iii) induce the turnover of cellular proteins by bridging -TrCP to these targets (adaptor). Yellow, serine residues of the PDL motif; orange, ubiquitin.
+
+![](2024-02-04-16-07-45.png)
