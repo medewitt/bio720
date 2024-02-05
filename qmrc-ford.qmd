@@ -66,13 +66,18 @@ Furthmore, the proposed mechansim of action is the through small ubiquitin-like 
 
 RRM1 is required for CPEB3’s localization to P bodies.
 
+General comments
+* didn't rule out mitochondria
+* could have stained all organelles 
+* HeLa isn't a neuron
+
 ### Panel A
 
 ![](2024-01-28-12-29-52.png){width=80%}
 
 **Q** Where does CPEB3 colocalize in the HeLa cells (and is it within the P-bodies)?
 
-**M** Transfected HeLa cells with GFP tagged Ago2, HA-GW182. Ago2 and HA-GW182 are known to be markers of p-bodies. Using flouroscropy we can examine where these different tagged proteins locate and can assess if they are colocated (indicating that CPEB3 is likely in these target p-bodies). We will do this by superimposing the images to show that they exist in the same space.
+**M** DNA plasmid that expressed these fluoroflors as needed. Transfected HeLa cells with GFP tagged Ago2, HA-GW182. Ago2 and HA-GW182 are known to be markers of p-bodies. Using flouroscropy (confocal microscope) we can examine where these different tagged proteins locate and can assess if they are colocated (indicating that CPEB3 is likely in these target p-bodies). We will do this by superimposing the images to show that they exist in the same space.
 
 **R** We see high levels of collocation of these proteins. We see clearly that the target cells are visible.
 
@@ -115,7 +120,18 @@ RRM1 is required for CPEB3’s localization to P bodies.
 
 **M** Coimmunoprecepitation  on transinfected HEK cells using WG182 and HA methods. This methods allows for the immunopreciptation of target proteins that are bound to another protein of interest. This allows us to capture specific protein-protein interactions. Immunopreciptation allows us to precipitate and quantify proteins of interest using antibody tags.
 
+Used XL as a crosslinker which sticks togther anything that's close to each other. 
+If you have a transient protein-protein interaction this can be useful to capture these.
+
 **R** The researchers could not immunoprecipitate Algo. Found evidence of coimmunopreciptation with GW182 and the CPEB3-EGF (i) as shown by the thick bands. Similarly, using HA, found that coimmunopreciptation of AGO2 and CPEB3-HA (ii).
+
+Ideally we want WB on the lysate and cells that don't produce CBEP3
+
+Can sometimes see different proteins on gels due to things like SUMO.
+
+Coomassie lets you see the background.
+
+Densitromitry
 
 **C** These data suggest that CPEB3 and GW182 and AGO2 have direct physical interactions (and thus the different p-body proteins). These results are pretty convincing.
 
@@ -132,6 +148,8 @@ RRM1 is required for CPEB3’s localization to P bodies.
 **Q** What are the critical sites required for physical interactions with the p-body associated proteins?
 
 **M** Create truncation mutants which remove particular regions allowing us to explore their interaction (by absense of colocalization in the resulting imagery). These mutants were generated with particular characteristics which will allow the exporation of different protential mechanisms of colocalization (E.g., what protein interactions and domains are important for colocation).
+
+Delta RRM! mutant did not appear to robustly colocalize with Ago.
 
 **R** Creation of the truncation mutants sucessful with GFP tags showing the localization
 
@@ -381,5 +399,11 @@ This phosphoylates and brings vesciles to surface (short term memory)
 Gene expression alternation in long term memory.
 
 *HEK293* cell line is composed of immortalized human embryonic kidney cells.
+
+**Fluorescent Microscope**
+
+**Confocal Microscope**
+
+pin hole allows you to take optical sections in the Z-place (so you can slice the sample vs see overlapping sections)
 
 # References
