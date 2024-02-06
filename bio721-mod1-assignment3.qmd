@@ -1,0 +1,32 @@
+---
+title: "BIO721 Module 1, Assignment 3"
+author: "Michael DeWitt"
+date: "2024-02-06"
+bibliography: molecular.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-numeric-superscript-brackets.csl
+citeproc: true
+format:
+  typst:
+    toc: true
+    section-numbering: 1.1.a
+    columns: 1
+---
+
+>You performed an in vitro experiment in which you treated C. swimmingtii with either bicarbonate or vehicle control for 1 hour. Then, you performed a western blot on the whole cell lysates, probing for the presence of the flagellin (FLG) protein with an antibody. You saw that that FLG was the normal size of 200-kDa in the vehicle-treated samples. However, this FLG protein appeared as a smaller, 90-kDa protein in the samples treated with bicarbonate. You ruled out the possibility of proteolysis (i.e., cleavage) of the 200-kDa protein into a 90-kDa fragment using protease inhibitors. 
+
+State a molecular biology hypothesis that would explain this result of different sized proteins being expressed by C. swimmingtii under these different conditions.
+
+# Question 1
+
+Broadly speaking, the presence of a lighter protein and the relatively short duration of the experimental treatment suggests that post-translational modifications are at play.
+One potential cause is through the mechanism of alternative polyadenylation sites, where the an alternate clevage and polyadenalytion site was used resulting in the synthesis of a smaller, truncated protein (with truncation occuring prior to a site to which our FLG antibody could bind).
+This is a common and important process in post-translational modification allowing for the synthesis of multiple isoforms from a single mRNA sequence.
+
+![From Zhang, Y., Liu, L., Qiu, Q. et al. Alternative polyadenylation: methods, mechanism, function, and role in cancer. J Exp Clin Cancer Res 40, 51 (2021). https://doi.org/10.1186/s13046-021-01852-7](images/76ef37c0aeaf34c1f6223a0f8fe380da947922925a541797a0a72270bd31c034.png)  
+
+# Question 2
+
+Describe an experiment (or set of experiments) to test your hypothesis. Please tell me what you would do, including the method(s) you would use and why. Describe what you’d expect to find (i.e., your expected results if your hypothesis is supported v. not supported).
+
+
+
