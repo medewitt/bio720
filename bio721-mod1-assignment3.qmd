@@ -2,12 +2,12 @@
 title: "BIO721 Module 1, Assignment 3"
 author: "Michael DeWitt"
 date: "2024-02-06"
-bibliography: molecular.bib
+bibliography: method2.bib
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa-numeric-superscript-brackets.csl
 citeproc: true
 format:
   typst:
-    toc: true
+    toc: false
     section-numbering: 1.1.a
     columns: 1
 ---
@@ -19,14 +19,44 @@ State a molecular biology hypothesis that would explain this result of different
 # Question 1
 
 Broadly speaking, the presence of a lighter protein and the relatively short duration of the experimental treatment suggests that post-translational modifications are at play.
-One potential cause is through the mechanism of alternative polyadenylation sites, where the an alternate clevage and polyadenalytion site was used resulting in the synthesis of a smaller, truncated protein (with truncation occuring prior to a site to which our FLG antibody could bind).
+One potential cause is through the mechanism of alternative polyadenylation sites (APA), where the an alternate clevage and polyadenalytion site was used resulting in the synthesis of a smaller, truncated protein (with truncation occuring prior to a site to which our FLG antibody could bind).
 This is a common and important process in post-translational modification allowing for the synthesis of multiple isoforms from a single mRNA sequence.
 
-![From Zhang, Y., Liu, L., Qiu, Q. et al. Alternative polyadenylation: methods, mechanism, function, and role in cancer. J Exp Clin Cancer Res 40, 51 (2021). https://doi.org/10.1186/s13046-021-01852-7](images/76ef37c0aeaf34c1f6223a0f8fe380da947922925a541797a0a72270bd31c034.png)  
+![From Zhang, Y., Liu, L., Qiu, Q. et al. Alternative polyadenylation: methods, mechanism, function, and role in cancer. @zhangPolyadenylationFactorSubunit2008](images/76ef37c0aeaf34c1f6223a0f8fe380da947922925a541797a0a72270bd31c034.png){width=80%}
 
 # Question 2
 
-Describe an experiment (or set of experiments) to test your hypothesis. Please tell me what you would do, including the method(s) you would use and why. Describe what you’d expect to find (i.e., your expected results if your hypothesis is supported v. not supported).
+> Describe an experiment (or set of experiments) to test your hypothesis. Please tell me what you would do, including the method(s) you would use and why. Describe what you’d expect to find (i.e., your expected results if your hypothesis is supported v. not supported).
 
+## Bioinformatics and RNASeq
 
+APAs are characterized by particular motifs in the mRNA, crudely a a hexameric A(A|U)UAAA sequence @shahBenchmarkingSequencingMethods2021.
+To understand if it is feasible that the alternative splice sites exist, we can use RNASeq to identify the actual sequence and use bioinformatic tools to inspect if these PAS sites exist within the vicinity of our target of interest.
+However, we would need to ensure that libraries exist for our target organism.
+Assuming for a moment that these libraries do exist, and more importantly we know the gene coding for our FLG protein of interest, we could perform RNASeq analysis.
+We will isolate the RNA from the organism of interest and then enrich for our target mRNAs while using depletion methods to reduce rRNA.
+This should leave us with the microRNAs and our RNA short reads of interest.
+We will then use reverse transcriptase to get our cDNA and use our high throughput sequing to get reads.
+Using bioinformatic approaches we will identify the likelihood of particular APA motifs around of mRNAs of interest.
+These will help us understand the feasibility and likelihood that APA is the cause for the observed protein truncation.
+We would expect to find these motifs indicating that the APA is underlying mechanism of this action.
+
+While we are doing our RNASeq experiments, it would likely be worthwhile to run our RNASeq under two conditions.
+The first condition would be under the control parameters and the second with the carbonate.
+Using our RNASeq data as described above, we could take the counts (correction for batch effects and normalization), and calculate the differential expression between the two groups.
+If APA is the resulting in the synthesis of the protein synthesis, we would expect that the mRNA levels should be similar (thus not differentially expressed) as the same mRNAs are being modified rather than changes in synthesis of the RNA.
+If we find that our mRNAs of interest are differentially expressed, this suggest that the quantity of mRNA has changed rather than the composition of the isoforms.
+This could suggest a different regulatory mechanism (e.g., a signalling pathway that is alterning gene expression).
+Again, if APA is suscepted then mRNA expression should be similar between the two groups (and the alternate polyadenylation is driving the the results in our western plots).
+
+A similar approach to our differential expression experiment could be conducted using RT-qPCR.
+We could use primers that recognize the same motif.
+We could our experiments again with the control and the experimental group (bicarbonate).
+After the experimental run, we will extract the RNA and run our RT-PCR to quantitify how much expression of the same, assumed shared motif exists.
+Using the quantified values (using CT values) we could estimate if this precipitated protein is likely from the same mRNA--this again pointing to PAS (see below figure).
+If we find that the quantities are different, then it could again be a different regulatory pathway is activating the synthesis of a different protein.
+
+# References
+
+![PCR Example](2024-02-06-19-03-31.png){width=80%}
 
