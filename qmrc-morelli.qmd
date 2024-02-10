@@ -18,13 +18,39 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 :::
 
+# Questions
+
 ## How do cells "sense" when they are infected with a virus? How do they "turn on" interferon gene expression?
+
+Cells utilizes a series of approaches.
+One of the approaches is the through pathogen-associated molecular patterns which recognize particular foreign protein patterns and then initiate autocrine and paracrine signalling responses.
+These approaches include the existance of toll-like receptors (TLRs), RIG-1-like receptors, and nucleotide-binding organization triggers.
+These then upregulate expression of chemochines, cytokines, and interferons.
 
 ## What was already known about regulation of the transcription factor NF-kB?
 
+NF-kB is known to regulate innate immunity, adaptive immunity, cell differentiation, proliferation, and survival.
+NF-kB is known to mediate inflatmoty responses and is typically sequestered in the cytoplasm.
+When not activated it is inhibited by the IkB; however in response to stress the IkB is phorspohalated and triggers ubiquitin mediated degratation freeing the NF-kB to go to the nucleos to induce cytokine, chemokine, responses.
+
+![](2024-02-10-14-12-00.png)
+
 ## What was already known about the cellular targets of rotavirus NSP1?
 
+NSP1 is known to target b-TrCP, IRF3/5/7/9, MAVS, and/or TNF receptorassociated factor 2 (TRAF2) to try to regulate host immune response.
+However, the C-terminius is highly variable and there was some though that the RING domain near the N terminus may act as an ubiquitin ligase.
+
+
 ## What was the overall objective of this study?
+
+The objective of this study is to show that NSP1 can inhibit host interferon response through the blocking of the release of NF-kB.
+Furthermore, this study shows that the mechanism is likely through the preservation of the bTrCp which disallows the turnover of the IkB disallowing the NF-kB to reach the nucleous to generate an innate immune response
+
+# Definitions
+
+**Autocrine** signaling is a form of signaling in which a cell secretes a hormone or a chemical substance that binds to the receptors on the same cell, leading to functional changes in the cell (Liang et al 10.4161/cbt.26717)
+
+**Paracrine** signaling is a form of cell signaling in which the target cell is near the signal-releasing cell. (Liang et al 10.4161/cbt.26717)
 
 # Figure 1
 
@@ -34,13 +60,23 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ![](2024-02-04-15-59-56.png)
 
-### Q
+### Q 
+
+Where are the genetic differences in the differential immune antagonism observed in the NSP1 protein?
 
 ### M
 
+Phylogentic analysis of the ORFs from NSP1 in genbank using an unrooted tree generated from maximum likelihood approaches.
+
 ### R
 
+Genotype A has 4 major groups/clusters
+
 ### C
+
+There are four clusters. I agree with this finding. NV recombination may make this tree a little challenging? I don't know.
+
+
 
 ## Panel B
 
@@ -48,17 +84,29 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ### Q
 
+Are these observed phylogenetic differences related to species alternate life -histories?
+
 ### M
+
+Create a cladogram to examine the origins of the sequences (i.e., host species) given the phylogeny
 
 ### R
 
+Yes, there are some noted differences by species.
+
 ### C
+
+I agree with this finding but I worry about sampling bias.
+
+Types appeared to separate into their phylogenetic history.
 
 ## Panel C
 
 ![](2024-02-04-16-00-56.png)
 
 ### Q
+
+
 
 ### M
 
@@ -90,11 +138,19 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ### Q
 
+Can we make a mutant with a truncated PDL motif?
+
 ### M
+
+MAke a truncation mutant
 
 ### R
 
+A truncation mutant was made.
+
 ### C
+
+
 
 ## Panel B
 
@@ -104,7 +160,14 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ### M
 
+HEK cells were transfected with NSP1 anf NFkB with a luciferase reporter.
+The NSP1 mutant was transfected.
+Activated with TNF-alpha.
+
 ### R
+
+OSU NSP1 blocked activation while truncation mutant did not.
+
 
 ### C
 
@@ -114,9 +177,15 @@ To see the latest version check <https://medewitt.github.io/bio720/qmrc-morelli.
 
 ### Q
 
+What is the role of the PDL motif in NSP1 mediation of beta TrCP?
+
 ### M
 
+HEK cells transfected with NSP1 and FLAG-beta Trcp assayed by immunoblotting. 
+
 ### R
+
+50% lower in cells with the mutant vs the wild type.
 
 ### C
 
