@@ -226,13 +226,19 @@ This shows again that the intact C-terminus appears to be important.
 
 ### Q
 
+Do human and porcine NSP1 proteins conserve the observed NGkB atangonist activity as visualized through their sequence?
+
 ### M
 
-Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
+Review the consensus alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### R
 
+Yes, there appears to be some sites of variability more so in the Simian motif than in the human and porcine motifs.
+
 ### C
+
+Yes, it looks like there is some level of conservation.
 
 ## Panel B
 
@@ -240,11 +246,22 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+Is the observed C-terminus activity experiment with the mutant repeatable amongst the different consensus strains?
+
 ### M
+
+HEK293T cells were cotransfected with NSP1 and NF-B firefly and HSV-tk Renilla luciferase reporters.
+This was done for both the wild-type and the truncation mutant.
+At 24 h p.t., cells were stimulated for 4 h with 25 ng/ml TNF-. Relative luciferase activity was calculated by normalizing firefly to Renilla luciferase activity.
 
 ### R
 
+In human and porcine strains, we see a tremendous and significant difference in NFkB suppression vs the wild-type.
+It appears that both the wild-type and the mutant in the simian strain did not have any real differences.
+
 ### C
+
+This figure shows some level of species conservation.
 
 ## Panel C
 
@@ -252,11 +269,21 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+Is the mechanism of the antongistic activity through the betaTrCp and is this conserved through the different species?
+
 ### M
+
+HEK293T cells cotransfected with NSP1 and FLAG--TrCP were assayed 24 h p.t. by quantitative immunoblotting (IB) (normalized to PCNA).
+For each NSP1, the level of -TrCP is expressed as a percentage of -TrCP in cells cotransfected with the corresponding deltaC mutant.
 
 ### R
 
+Variable levels of beta-TrCp degradation are seen across the different strains.
+
 ### C
+
+This group of OSU-like NSP1 proteins did not universally conserve -TrCP degradation activity, despite all members having a C-terminal PDL motif and potently blocking NF-B activation
+
 
 # Figure 4
 
@@ -268,11 +295,20 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+Which serine residues are required for PDL activity?
+
 ### M
+
+A review of the sequence of the NSP1
 
 ### R
 
+HEK293T cells were cotransfected with NSP1 and NF-B firefly and HSV-tk Renilla luciferase reporters. At 24 h p.t., cells were stimulated for 4 h with 25 ng/ml TNF-. Relative luciferase activity was calculated by normalizing firefly to Renilla luciferase activity.
+
 ### C
+
+No conclusions yet.
+This piece sets the hypothesis.
 
 ## Panel B
 
@@ -280,11 +316,22 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+Is the C-terminus the driver of the activity or will individual protein residue changes be enough to change the anti-NFkB antagonism?
+
 ### M
+
+HEK293T cells were cotransfected with NSP1 and NF-B firefly and HSV-tk Renilla luciferase reporters. At 24 h p.t., cells were stimulated for 4 h with 25 ng/ml TNF-. Relative luciferase activity was calculated by normalizing firefly to Renilla luciferase activity.
 
 ### R
 
+All of the point mutations (e.g., S480A) resulted in a decreased amount of suppression compared to wild-type, though there was some quantitative variaiton.
+
 ### C
+
+It appears that the entirity of this motif needs to be conserved in this position in order to have the antagonism compared to wild-type.
+This suggests that all of the amino acides in this position need to be present to affect this outcome.
+
+
 
 ## Panel C
 
@@ -292,11 +339,20 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+Is serine a strict need at these positions?
+
+
 ### M
+
+HEK293T cells were cotransfected with NSP1 and NF-B firefly and HSV-tk Renilla luciferase reporters. At 24 h p.t., cells were stimulated for 4 h with 25 ng/ml TNF-. Relative luciferase activity was calculated by normalizing firefly to Renilla luciferase activity.
 
 ### R
 
+All of the point mutations resulted in a decreased amount of suppression compared to wild-type, though there was some quantitative variaiton.
+
 ### C
+
+There appears to be a strict requirement for serine at these positions for the antagonism to occur.
 
 ## Panel D
 
@@ -304,11 +360,23 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+Do these amino acid substitutions have the same impact on beta TrCP levels?
+
 ### M
+
+HEK293T cells cotransfected with NSP1 and FLAG--TrCP were assayed 24 h p.t. by quantitative immunoblotting (IB) (normalized to PCNA).
+The level of -TrCP is expressed as a percentage of -TrCP in OSU-C13-transfected cells.
 
 ### R
 
+OSU and OSU-EE NSP1 were functionally equivalent in this assay, while OSU-AA, -DD, and -TT NSP1 proteins also mediated a modest degree of -TrCP degradation.
+
+
 ### C
+
+This suggested that transient interaction of the NSP1 RING domain with the E2 subunit of the SCF-TrCP complex may have been sufficient to stabilize a likely weak interaction between the mutated PDL motif and the -TrCP subunit.
+An electronegative sequence might sufficiently stabilize the likely transient interaction required by NSP1 to polyubiqutinate -TrCP.
+This makes sense given the substitution patterns we are observing with some
 
 ## Panel E
 
@@ -316,11 +384,19 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+Are the NSP molecules able to bind to the beta TrCP with these AA substitutions?
+
 ### M
+
+HEK293T cells cotransfected with NSP1 and -TrCP were immunoprecipitated (IP) with anti-FLAG resin. Immunoblots represent 3% clarified wholecell lysate (WCL) and 10% eluted protein.
 
 ### R
 
+WCL is whole cell lysate.
+There is poor binding to the OSU.
+
 ### C
+FLAG immunoprecipitation of -TrCP:NSP1 complexes from cotransfected HEK293T cells demonstrated that the serine residues were critical for this interaction
 
 # Figure 5
 
@@ -332,11 +408,20 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+What does the truncation mutant look like?
+
 ### M
+
+Create the mutant.
 
 ### R
 
+Mutant created.
+
+
 ### C
+
+Diagram of -TrCP domain organization and truncations.
 
 ## Panel B
 
@@ -344,11 +429,19 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+Does the NSP1 continue to recognize the appropriate site on beta TrCP for degradation?
+
 ### M
+EK293T cells cotransfected with OSU NSP1 and FLAG--TrCP were assayed 24 h p.t. by quantitative immunoblotting (IB) (normalized to PCNA).
+The level of -TrCP is expressed as a percentage of -TrCP in OSU-C13-transfected cells.
 
 ### R
 
+NSP1 mediated the degradation of -TrCP-288C, although less efficiently than it did full-length -TrCP.
+
 ### C
+
+This suggested preferential recognition of the full-length protein, perhaps in the context of the SCF-TrCP complex.
 
 ## Panel C
 
@@ -356,11 +449,18 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+What is the structure of the NSP region of interest?
+
 ### M
+
+NA
 
 ### R
 
+NA
 ### C
+
+Aspartic acid, which almost invariably marks the phosphodegron start, forms the most extensive network of contacts, in particular with residues R510 and Y524
 
 ## Panel D
 
@@ -368,11 +468,20 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+Do modiciations in the binding pocket alter the degradation of TcCP mutants (e.g., is this process very specific to the sequence)?
+
 ### M
+The level of -TrCP is expressed as a percentage of -TrCP in OSU-C13-transfected cells.
 
 ### R
 
+OSU NSP1 could not mediate the degradation of either -TrCP-R510A or -TrCP-288CR510A,
+
 ### C
+
+Indicates that NSP1 targets the binding pocket used by -TrCP to interact with cellular phosphodegrons
+
+
 
 ## Panel E
 
@@ -380,11 +489,20 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+Doe oes the phosphodegrons region need to be intact for the degradation of the TcCP?
+
 ### M
+
+HEK293T cells cotransfected with NSP1 and -TrCP were immunoprecipitated (IP) with anti-FLAG resin. Immunoblots represent 3% clarified whole-cell lysate (WCL) and 10% eluted protein.
 
 ### R
 
+FLAG-TrCP-R510A also failed to coimmunoprecipitate OSU NSP1
+
 ### C
+
+-TrCP recognizes cellular phosphodegrons and the NSP1 PDL motif in a similar manner.
+
 
 # Figure 6
 
@@ -396,11 +514,19 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+What is the shared sequence?
+
 ### M
+
+Review the sequence?
 
 ### R
 
+Alignment of the C termini from OSU, SA11-4F, and 4F-OSU NSP1. Residues from OSU NSP1 are shaded in gray, and asterisks indicate the PDL motif.
+
 ### C
+
+OSU seems to have the same sequence.
 
 ## Panel B
 
@@ -408,11 +534,20 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+What is the minimum sequence needed to target degradation?
+
 ### M
+
+HEK293T cells were cotransfected with NSP1 and NF-B firefly and HSV-tk Renilla luciferase reporters. At 24 h p.t., cells were stimulated for 4 h with 25 ng/ml TNF-. Relative luciferase activity was calculated by normalizing firefly to Renilla luciferase activity.
 
 ### R
 
+4F-OSU lacked the potency of OSU NSP1
+
 ### C
+
+Indicates that regions outside the C-terminal PDL motif likely contribute to NF-B antagonism by OSU NSP1 and are not fully captured by SA11-4F NSP1
+
 
 ## Panel C
 
@@ -420,11 +555,20 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+What is the effect of those sequence variants on beta TrCP degradation?
+
 ### M
+
+HEK293T cells cotransfected with NSP1 and FLAG--TrCP were assayed 24 h p.t. by quantitative immunoblotting (IB) (normalized to PCNA). The level of -TrCP is expressed as a percentage of -TrCP in SA11-5Stransfected cells.
 
 ### R
 
+The 4F-OSU chimera was able to induce -TrCP turnover comparable to that of OSU NSP1.
+
+
 ### C
+
+This finding suggests that the PDL motif, when paired with an intact RING domain, is sufficient to target SCF-TrCP and that SA11-4F and OSU NSP1 proteins conserve an architecture and mechanism similar enough to permit this transfer of functionality.
 
 ## Panel D
 
@@ -432,9 +576,15 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+IS the 5 residue motif sufficient for beta Tc-CP degradation?
+
 ### M
 
+HEK293T cells cotransfected with NSP1 and -TrCP were immunoprecipitated (IP) with anti-FLAG resin. Immunoblots represent 3% clarified whole-cell lysate (WCL) and 10% eluted protein.
+
 ### R
+
+Based on this blot the 5 protein motify results in similar profiles to the wild-type indicating that the wild-type functionality is recovered.
 
 ### C
 
@@ -446,8 +596,20 @@ Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### Q
 
+What is the overall mechanism for what we observe?
+
 ### M
+
+Diagram.
 
 ### R
 
+There are three different proposed mechanisms
+
+1. Degradation of bTrCP which degrades that which degrades the inhibitor
+2. Blocking
+3. Bridging
+
 ### C
+
+The bridging is the from the literature and I am hestitant to comment on it, but we seem to have good evidence of the degradation approach.
