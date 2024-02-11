@@ -106,13 +106,20 @@ Types appeared to separate into their phylogenetic history.
 
 ### Q
 
-
+Are the sequences in the domains of interest conserved across species in details?
 
 ### M
 
+Examine the consensus sequences among the two domains of interest for NSP1 by host-species.
+
 ### R
 
+NSP1 sequences used in this study are indicated.
+The sequences appear to be highly conserved across the species in the OSU group (porcine) and to some extent the human one.
+
 ### C
+
+All full-length RVA NSP1 proteins are thought to utilize an N-terminal RING domain to interact with a cellular E2 ubiquitin-conjugating enzyme and a C-terminal sequence element to provide binding specificity for a host innate immune target
 
 ## Panel D
 
@@ -120,11 +127,19 @@ Types appeared to separate into their phylogenetic history.
 
 ### Q
 
+Are the PDL sequences conserved within the human sequences?
+
 ### M
+
+Review the sequences.
 
 ### R
 
+Alignment of viral PDL motifs and phosphodegrons from known targets of $beta$-TrCP shown with high degree of conservation except maybe VAC.
+
 ### C
+
+Yes, it appears that there is some alignment.
 
 
 
@@ -150,6 +165,8 @@ A truncation mutant was made.
 
 ### C
 
+This figure just shows that the delta C truncation mutant was made.
+
 
 
 ## Panel B
@@ -158,15 +175,20 @@ A truncation mutant was made.
 
 ### Q
 
+With the truncation of the C-termininus domain, will we see the immunoregulatory features?
+
+
 ### M
 
 HEK cells were transfected with NSP1 anf NFkB with a luciferase reporter.
 The NSP1 mutant was transfected.
 Activated with TNF-alpha.
+Thus if NfkB is expressed, we will see it with the luciferase reporter with higher level indicating that the expected antiviral response is taking place.
 
 ### R
 
-OSU NSP1 blocked activation while truncation mutant did not.
+OSU NSP1 blocked activation (wt) while truncation mutant did not in the presence of TNF alpha.
+This mutant was also seen in both the OSU-C42A (point mutant predicted to disrupt the N-terminal RING domain) and SA11-4F (which mediates the degradation of IRFs but not -TrCP)
 
 
 ### C
@@ -181,13 +203,18 @@ What is the role of the PDL motif in NSP1 mediation of beta TrCP?
 
 ### M
 
-HEK cells transfected with NSP1 and FLAG-beta Trcp assayed by immunoblotting. 
+HEK cells transfected with NSP1 and FLAG-beta Trcp assayed by quantitative immunoblotting.
+The level of -TrCP is expressed as a percentage of -TrCP in OSU-C13-transfected cells.
 
 ### R
 
-50% lower in cells with the mutant vs the wild type.
+50% lower in cells with the wild type vs the mutants.
 
 ### C
+
+This shows again that the intact C-terminus appears to be important.
+
+
 
 # Figure 3
 
@@ -200,6 +227,8 @@ HEK cells transfected with NSP1 and FLAG-beta Trcp assayed by immunoblotting.
 ### Q
 
 ### M
+
+Alignment of the C termini from OSU, related RVA, and SA11-4F NSP1 protein
 
 ### R
 
